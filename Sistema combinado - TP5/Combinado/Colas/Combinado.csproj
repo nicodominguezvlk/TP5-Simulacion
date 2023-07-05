@@ -52,6 +52,7 @@
     <Compile Include="Metricas.Designer.cs">
       <DependentUpon>Metricas.cs</DependentUpon>
     </Compile>
+    <Compile Include="RungeKutta.cs" />
     <Compile Include="Visualizador.cs">
       <SubType>Form</SubType>
     </Compile>

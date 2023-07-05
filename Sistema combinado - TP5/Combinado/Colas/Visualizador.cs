@@ -23,6 +23,7 @@ namespace Combinado
         int verHastaSimulacion;
         int numeroSimulacionActual;
         DataTable dt;
+        RungeKutta rk;
 
         public Visualizador(Menu menu, decimal mediaLlegada, decimal mediaAP, decimal mediaAE, decimal mediaAC, decimal mediaACM, int cant, int desde, int hasta)
         {
@@ -36,6 +37,7 @@ namespace Combinado
             cantidadDeSimulaciones = cant;
             verDesdeSimulacion = desde;
             verHastaSimulacion = hasta;
+            rk = new RungeKutta();
 
             eventoInicial();
         }
@@ -193,6 +195,7 @@ namespace Combinado
             
             return horaEventoMin;
         }
+
 
         // Eventos
         public void eventoInicial()

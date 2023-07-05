@@ -179,7 +179,7 @@
             this.lblTiempoPromedioEnColaComida.AutoSize = true;
             this.lblTiempoPromedioEnColaComida.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempoPromedioEnColaComida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.lblTiempoPromedioEnColaComida.Location = new System.Drawing.Point(55, 316);
+            this.lblTiempoPromedioEnColaComida.Location = new System.Drawing.Point(55, 311);
             this.lblTiempoPromedioEnColaComida.Name = "lblTiempoPromedioEnColaComida";
             this.lblTiempoPromedioEnColaComida.Size = new System.Drawing.Size(316, 23);
             this.lblTiempoPromedioEnColaComida.TabIndex = 13;
@@ -190,7 +190,7 @@
             this.lblTiempoPromedioComida.AutoSize = true;
             this.lblTiempoPromedioComida.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempoPromedioComida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.lblTiempoPromedioComida.Location = new System.Drawing.Point(603, 316);
+            this.lblTiempoPromedioComida.Location = new System.Drawing.Point(603, 311);
             this.lblTiempoPromedioComida.Name = "lblTiempoPromedioComida";
             this.lblTiempoPromedioComida.Size = new System.Drawing.Size(297, 23);
             this.lblTiempoPromedioComida.TabIndex = 14;
@@ -201,7 +201,7 @@
             this.lblTiempoEnConseguirEntrada.AutoSize = true;
             this.lblTiempoEnConseguirEntrada.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempoEnConseguirEntrada.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.lblTiempoEnConseguirEntrada.Location = new System.Drawing.Point(55, 373);
+            this.lblTiempoEnConseguirEntrada.Location = new System.Drawing.Point(55, 370);
             this.lblTiempoEnConseguirEntrada.Name = "lblTiempoEnConseguirEntrada";
             this.lblTiempoEnConseguirEntrada.Size = new System.Drawing.Size(279, 23);
             this.lblTiempoEnConseguirEntrada.TabIndex = 15;
@@ -212,7 +212,7 @@
             this.lblTiempoEnConseguirE.AutoSize = true;
             this.lblTiempoEnConseguirE.Font = new System.Drawing.Font("Microsoft JhengHei", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempoEnConseguirE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.lblTiempoEnConseguirE.Location = new System.Drawing.Point(603, 373);
+            this.lblTiempoEnConseguirE.Location = new System.Drawing.Point(603, 370);
             this.lblTiempoEnConseguirE.Name = "lblTiempoEnConseguirE";
             this.lblTiempoEnConseguirE.Size = new System.Drawing.Size(281, 23);
             this.lblTiempoEnConseguirE.TabIndex = 16;
