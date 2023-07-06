@@ -2013,7 +2013,7 @@ namespace Combinado
             beta = null;
             tiempoDeDetencion = null;
 
-            horaDetencion = Convert.ToDecimal(filaAnterior["horaDetencion"]);
+            horaDetencion = aDecimal(filaAnterior["horaDetencion"]);
 
 
             // Llegada auto
@@ -2029,7 +2029,7 @@ namespace Combinado
 
             tiempoDuracionDetencionLlegadas = null;
 
-            horaReanudacionLlegadas = Convert.ToDecimal(filaAnterior["horaReanudacionLlegadas"]);
+            horaReanudacionLlegadas = aDecimal(filaAnterior["horaReanudacionLlegadas"]);
 
 
             // Fin atención parking
@@ -2529,7 +2529,7 @@ namespace Combinado
             // Reanudacion Servidor
             s = null;
             tiempoDuracionDetencionServidor = null;
-            horaReanudacionServidor = Convert.ToDecimal(filaAnterior["horaReanudacionServidor"]);
+            horaReanudacionServidor = aDecimal(filaAnterior["horaReanudacionServidor"]);
 
 
             // Bloqueo de llegadas
