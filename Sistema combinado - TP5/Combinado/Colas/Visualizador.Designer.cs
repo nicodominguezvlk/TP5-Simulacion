@@ -1,4 +1,6 @@
-﻿namespace Combinado
+﻿using System.Drawing;
+
+namespace Combinado
 {
     partial class Visualizador
     {
@@ -43,11 +45,67 @@
             this.imgX = new System.Windows.Forms.PictureBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.grdSimulacion = new System.Windows.Forms.DataGridView();
+            this.btnObjetosTemporales = new System.Windows.Forms.Button();
+            this.btnInformación = new System.Windows.Forms.Button();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.tabSimulacion = new System.Windows.Forms.TabPage();
+            this.tabTemporales = new System.Windows.Forms.TabPage();
+            this.lblPersonasMayores = new System.Windows.Forms.Label();
+            this.grdPersonasMayores = new System.Windows.Forms.DataGridView();
+            this.estadoPersonaMayor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblPersonas = new System.Windows.Forms.Label();
+            this.grdPersonas = new System.Windows.Forms.DataGridView();
+            this.estadoPersona = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblGrupos = new System.Windows.Forms.Label();
+            this.grdGrupos = new System.Windows.Forms.DataGridView();
+            this.estadoGrupo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblAutos = new System.Windows.Forms.Label();
+            this.grdAutos = new System.Windows.Forms.DataGridView();
+            this.estadoAuto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabRK1 = new System.Windows.Forms.TabPage();
+            this.grdRKDetencion = new System.Windows.Forms.DataGridView();
+            this.t_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.A_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K1_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K2_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K3_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K4_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tdeimas1_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Adeimas1_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabRK2 = new System.Windows.Forms.TabPage();
+            this.grdRKReanudacionLlegadas = new System.Windows.Forms.DataGridView();
+            this.t_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.L_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K2_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K3_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K4_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tdeimas1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ldeimas1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LmenosLmenos1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabRK3 = new System.Windows.Forms.TabPage();
+            this.grdRKReanudacionServidor = new System.Windows.Forms.DataGridView();
+            this.t_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.S_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K1_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K2_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K3_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.K4_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tdeimas1_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sdeimas1_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.evento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.reloj = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rndTipoDetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tipoDetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.beta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tiempoDeDetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horaDetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rndLlegada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tiempoLlegada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.proximaLlegada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.l = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tiempoDuracionDetencionLlegadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horaReanudacionLlegadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rndFinAtencionParking = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tiempoFinAtencionParking = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.proximoFinAtencionParking1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -83,6 +141,11 @@
             this.rndFinCCM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tiempoFinCCM = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.proximoFinCCM = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.s = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tiempoDuracionDetencionServidor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horaReanudacionServidor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ingresoBloqueado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colaBloqueoLlegadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colaPark1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoCajaPark1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colaPark2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -124,54 +187,6 @@
             this.tiempoEnConseguirEntrada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cantidadPromedioGenteEnColaEntrada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tiempoEntradaDespuesDeEstacionar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnObjetosTemporales = new System.Windows.Forms.Button();
-            this.btnInformación = new System.Windows.Forms.Button();
-            this.tabControl = new System.Windows.Forms.TabControl();
-            this.tabSimulacion = new System.Windows.Forms.TabPage();
-            this.tabTemporales = new System.Windows.Forms.TabPage();
-            this.lblPersonasMayores = new System.Windows.Forms.Label();
-            this.grdPersonasMayores = new System.Windows.Forms.DataGridView();
-            this.estadoPersonaMayor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblPersonas = new System.Windows.Forms.Label();
-            this.grdPersonas = new System.Windows.Forms.DataGridView();
-            this.estadoPersona = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblGrupos = new System.Windows.Forms.Label();
-            this.grdGrupos = new System.Windows.Forms.DataGridView();
-            this.estadoGrupo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblAutos = new System.Windows.Forms.Label();
-            this.grdAutos = new System.Windows.Forms.DataGridView();
-            this.estadoAuto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabRK1 = new System.Windows.Forms.TabPage();
-            this.tabRK2 = new System.Windows.Forms.TabPage();
-            this.tabRK3 = new System.Windows.Forms.TabPage();
-            this.grdRKDetencion = new System.Windows.Forms.DataGridView();
-            this.grdRKReanudacionLlegadas = new System.Windows.Forms.DataGridView();
-            this.t_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.L_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K2_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K3_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K4_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tdeimas1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ldeimas1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LmenosLmenos1_reanudLleg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.grdReanudacionServidor = new System.Windows.Forms.DataGridView();
-            this.t_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.S_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K1_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K2_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K3_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K4_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tdeimas1_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Sdeimas1_reanudServ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.t_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.A_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K1_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K2_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K3_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.K4_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tdeimas1_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Adeimas1_detencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picArrow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picX)).BeginInit();
@@ -186,11 +201,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.grdGrupos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdAutos)).BeginInit();
             this.tabRK1.SuspendLayout();
-            this.tabRK2.SuspendLayout();
-            this.tabRK3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdRKDetencion)).BeginInit();
+            this.tabRK2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdRKReanudacionLlegadas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdReanudacionServidor)).BeginInit();
+            this.tabRK3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdRKReanudacionServidor)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlTitulo
@@ -279,9 +294,17 @@
             this.grdSimulacion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.evento,
             this.reloj,
+            this.rndTipoDetencion,
+            this.tipoDetencion,
+            this.beta,
+            this.tiempoDeDetencion,
+            this.horaDetencion,
             this.rndLlegada,
             this.tiempoLlegada,
             this.proximaLlegada,
+            this.l,
+            this.tiempoDuracionDetencionLlegadas,
+            this.horaReanudacionLlegadas,
             this.rndFinAtencionParking,
             this.tiempoFinAtencionParking,
             this.proximoFinAtencionParking1,
@@ -317,6 +340,11 @@
             this.rndFinCCM,
             this.tiempoFinCCM,
             this.proximoFinCCM,
+            this.s,
+            this.tiempoDuracionDetencionServidor,
+            this.horaReanudacionServidor,
+            this.ingresoBloqueado,
+            this.colaBloqueoLlegadas,
             this.colaPark1,
             this.estadoCajaPark1,
             this.colaPark2,
@@ -374,6 +402,552 @@
             this.grdSimulacion.Size = new System.Drawing.Size(1072, 419);
             this.grdSimulacion.TabIndex = 4;
             // 
+            // btnObjetosTemporales
+            // 
+            this.btnObjetosTemporales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(217)))), ((int)(((byte)(130)))));
+            this.btnObjetosTemporales.FlatAppearance.BorderSize = 0;
+            this.btnObjetosTemporales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnObjetosTemporales.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
+            this.btnObjetosTemporales.ForeColor = System.Drawing.Color.White;
+            this.btnObjetosTemporales.Location = new System.Drawing.Point(550, 633);
+            this.btnObjetosTemporales.Name = "btnObjetosTemporales";
+            this.btnObjetosTemporales.Size = new System.Drawing.Size(708, 39);
+            this.btnObjetosTemporales.TabIndex = 8;
+            this.btnObjetosTemporales.Text = "Ver objetos temporales";
+            this.btnObjetosTemporales.UseVisualStyleBackColor = false;
+            // 
+            // btnInformación
+            // 
+            this.btnInformación.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(180)))), ((int)(((byte)(220)))));
+            this.btnInformación.FlatAppearance.BorderSize = 0;
+            this.btnInformación.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInformación.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
+            this.btnInformación.ForeColor = System.Drawing.Color.White;
+            this.btnInformación.Location = new System.Drawing.Point(200, 547);
+            this.btnInformación.Name = "btnInformación";
+            this.btnInformación.Size = new System.Drawing.Size(708, 39);
+            this.btnInformación.TabIndex = 9;
+            this.btnInformación.Text = "Ver información";
+            this.btnInformación.UseVisualStyleBackColor = false;
+            this.btnInformación.Click += new System.EventHandler(this.btnInformación_Click);
+            // 
+            // tabControl
+            // 
+            this.tabControl.Controls.Add(this.tabSimulacion);
+            this.tabControl.Controls.Add(this.tabTemporales);
+            this.tabControl.Controls.Add(this.tabRK1);
+            this.tabControl.Controls.Add(this.tabRK2);
+            this.tabControl.Controls.Add(this.tabRK3);
+            this.tabControl.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl.Location = new System.Drawing.Point(0, 96);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(1080, 445);
+            this.tabControl.TabIndex = 10;
+            // 
+            // tabSimulacion
+            // 
+            this.tabSimulacion.Controls.Add(this.grdSimulacion);
+            this.tabSimulacion.Location = new System.Drawing.Point(4, 26);
+            this.tabSimulacion.Name = "tabSimulacion";
+            this.tabSimulacion.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSimulacion.Size = new System.Drawing.Size(1072, 415);
+            this.tabSimulacion.TabIndex = 0;
+            this.tabSimulacion.Text = "Simulación";
+            this.tabSimulacion.UseVisualStyleBackColor = true;
+            // 
+            // tabTemporales
+            // 
+            this.tabTemporales.Controls.Add(this.lblPersonasMayores);
+            this.tabTemporales.Controls.Add(this.grdPersonasMayores);
+            this.tabTemporales.Controls.Add(this.lblPersonas);
+            this.tabTemporales.Controls.Add(this.grdPersonas);
+            this.tabTemporales.Controls.Add(this.lblGrupos);
+            this.tabTemporales.Controls.Add(this.grdGrupos);
+            this.tabTemporales.Controls.Add(this.lblAutos);
+            this.tabTemporales.Controls.Add(this.grdAutos);
+            this.tabTemporales.Location = new System.Drawing.Point(4, 26);
+            this.tabTemporales.Name = "tabTemporales";
+            this.tabTemporales.Padding = new System.Windows.Forms.Padding(3);
+            this.tabTemporales.Size = new System.Drawing.Size(1072, 415);
+            this.tabTemporales.TabIndex = 1;
+            this.tabTemporales.Text = "Objetos Temporales";
+            this.tabTemporales.UseVisualStyleBackColor = true;
+            // 
+            // lblPersonasMayores
+            // 
+            this.lblPersonasMayores.AutoSize = true;
+            this.lblPersonasMayores.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPersonasMayores.Location = new System.Drawing.Point(838, 18);
+            this.lblPersonasMayores.Name = "lblPersonasMayores";
+            this.lblPersonasMayores.Size = new System.Drawing.Size(210, 30);
+            this.lblPersonasMayores.TabIndex = 7;
+            this.lblPersonasMayores.Text = "Personas mayores";
+            // 
+            // grdPersonasMayores
+            // 
+            this.grdPersonasMayores.AllowUserToAddRows = false;
+            this.grdPersonasMayores.AllowUserToDeleteRows = false;
+            this.grdPersonasMayores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdPersonasMayores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.estadoPersonaMayor});
+            this.grdPersonasMayores.Location = new System.Drawing.Point(804, 62);
+            this.grdPersonasMayores.Name = "grdPersonasMayores";
+            this.grdPersonasMayores.ReadOnly = true;
+            this.grdPersonasMayores.Size = new System.Drawing.Size(268, 353);
+            this.grdPersonasMayores.TabIndex = 6;
+            // 
+            // estadoPersonaMayor
+            // 
+            this.estadoPersonaMayor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.estadoPersonaMayor.HeaderText = "Estado";
+            this.estadoPersonaMayor.Name = "estadoPersonaMayor";
+            this.estadoPersonaMayor.ReadOnly = true;
+            // 
+            // lblPersonas
+            // 
+            this.lblPersonas.AutoSize = true;
+            this.lblPersonas.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPersonas.Location = new System.Drawing.Point(618, 18);
+            this.lblPersonas.Name = "lblPersonas";
+            this.lblPersonas.Size = new System.Drawing.Size(110, 30);
+            this.lblPersonas.TabIndex = 5;
+            this.lblPersonas.Text = "Personas";
+            // 
+            // grdPersonas
+            // 
+            this.grdPersonas.AllowUserToAddRows = false;
+            this.grdPersonas.AllowUserToDeleteRows = false;
+            this.grdPersonas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdPersonas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.estadoPersona});
+            this.grdPersonas.Location = new System.Drawing.Point(536, 62);
+            this.grdPersonas.Name = "grdPersonas";
+            this.grdPersonas.ReadOnly = true;
+            this.grdPersonas.Size = new System.Drawing.Size(269, 353);
+            this.grdPersonas.TabIndex = 4;
+            // 
+            // estadoPersona
+            // 
+            this.estadoPersona.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.estadoPersona.HeaderText = "Estado";
+            this.estadoPersona.Name = "estadoPersona";
+            this.estadoPersona.ReadOnly = true;
+            // 
+            // lblGrupos
+            // 
+            this.lblGrupos.AutoSize = true;
+            this.lblGrupos.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGrupos.Location = new System.Drawing.Point(358, 18);
+            this.lblGrupos.Name = "lblGrupos";
+            this.lblGrupos.Size = new System.Drawing.Size(93, 30);
+            this.lblGrupos.TabIndex = 3;
+            this.lblGrupos.Text = "Grupos";
+            // 
+            // grdGrupos
+            // 
+            this.grdGrupos.AllowUserToAddRows = false;
+            this.grdGrupos.AllowUserToDeleteRows = false;
+            this.grdGrupos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdGrupos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.estadoGrupo});
+            this.grdGrupos.Location = new System.Drawing.Point(268, 62);
+            this.grdGrupos.Name = "grdGrupos";
+            this.grdGrupos.ReadOnly = true;
+            this.grdGrupos.Size = new System.Drawing.Size(269, 353);
+            this.grdGrupos.TabIndex = 2;
+            // 
+            // estadoGrupo
+            // 
+            this.estadoGrupo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.estadoGrupo.HeaderText = "Estado";
+            this.estadoGrupo.Name = "estadoGrupo";
+            this.estadoGrupo.ReadOnly = true;
+            // 
+            // lblAutos
+            // 
+            this.lblAutos.AutoSize = true;
+            this.lblAutos.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutos.Location = new System.Drawing.Point(95, 18);
+            this.lblAutos.Name = "lblAutos";
+            this.lblAutos.Size = new System.Drawing.Size(76, 30);
+            this.lblAutos.TabIndex = 1;
+            this.lblAutos.Text = "Autos";
+            // 
+            // grdAutos
+            // 
+            this.grdAutos.AllowUserToAddRows = false;
+            this.grdAutos.AllowUserToDeleteRows = false;
+            this.grdAutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdAutos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.estadoAuto});
+            this.grdAutos.Location = new System.Drawing.Point(0, 62);
+            this.grdAutos.Name = "grdAutos";
+            this.grdAutos.ReadOnly = true;
+            this.grdAutos.Size = new System.Drawing.Size(269, 353);
+            this.grdAutos.TabIndex = 0;
+            // 
+            // estadoAuto
+            // 
+            this.estadoAuto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.estadoAuto.HeaderText = "Estado";
+            this.estadoAuto.Name = "estadoAuto";
+            this.estadoAuto.ReadOnly = true;
+            // 
+            // tabRK1
+            // 
+            this.tabRK1.Controls.Add(this.grdRKDetencion);
+            this.tabRK1.Location = new System.Drawing.Point(4, 26);
+            this.tabRK1.Name = "tabRK1";
+            this.tabRK1.Size = new System.Drawing.Size(1072, 415);
+            this.tabRK1.TabIndex = 2;
+            this.tabRK1.Text = "RK Detención";
+            this.tabRK1.UseVisualStyleBackColor = true;
+            // 
+            // grdRKDetencion
+            // 
+            this.grdRKDetencion.AllowUserToAddRows = false;
+            this.grdRKDetencion.AllowUserToDeleteRows = false;
+            this.grdRKDetencion.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.grdRKDetencion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdRKDetencion.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdRKDetencion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.grdRKDetencion.ColumnHeadersHeight = 30;
+            this.grdRKDetencion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.t_detencion,
+            this.A_detencion,
+            this.K1_detencion,
+            this.K2_detencion,
+            this.K3_detencion,
+            this.K4_detencion,
+            this.tdeimas1_detencion,
+            this.Adeimas1_detencion});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdRKDetencion.DefaultCellStyle = dataGridViewCellStyle4;
+            this.grdRKDetencion.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.grdRKDetencion.Location = new System.Drawing.Point(0, -2);
+            this.grdRKDetencion.Name = "grdRKDetencion";
+            this.grdRKDetencion.ReadOnly = true;
+            this.grdRKDetencion.RowHeadersWidth = 51;
+            this.grdRKDetencion.Size = new System.Drawing.Size(1072, 419);
+            this.grdRKDetencion.TabIndex = 5;
+            // 
+            // t_detencion
+            // 
+            this.t_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.t_detencion.DataPropertyName = "t_detencion";
+            this.t_detencion.HeaderText = "t";
+            this.t_detencion.Name = "t_detencion";
+            this.t_detencion.ReadOnly = true;
+            // 
+            // A_detencion
+            // 
+            this.A_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.A_detencion.DataPropertyName = "A_detencion";
+            this.A_detencion.HeaderText = "A";
+            this.A_detencion.Name = "A_detencion";
+            this.A_detencion.ReadOnly = true;
+            // 
+            // K1_detencion
+            // 
+            this.K1_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K1_detencion.DataPropertyName = "K1_detencion";
+            this.K1_detencion.HeaderText = "K1";
+            this.K1_detencion.Name = "K1_detencion";
+            this.K1_detencion.ReadOnly = true;
+            // 
+            // K2_detencion
+            // 
+            this.K2_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K2_detencion.DataPropertyName = "K2_detencion";
+            this.K2_detencion.HeaderText = "K2";
+            this.K2_detencion.Name = "K2_detencion";
+            this.K2_detencion.ReadOnly = true;
+            // 
+            // K3_detencion
+            // 
+            this.K3_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K3_detencion.DataPropertyName = "K3_detencion";
+            this.K3_detencion.HeaderText = "K3";
+            this.K3_detencion.Name = "K3_detencion";
+            this.K3_detencion.ReadOnly = true;
+            // 
+            // K4_detencion
+            // 
+            this.K4_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K4_detencion.DataPropertyName = "K4_detencion";
+            this.K4_detencion.HeaderText = "K4";
+            this.K4_detencion.Name = "K4_detencion";
+            this.K4_detencion.ReadOnly = true;
+            // 
+            // tdeimas1_detencion
+            // 
+            this.tdeimas1_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.tdeimas1_detencion.DataPropertyName = "tdeimas1_detencion";
+            this.tdeimas1_detencion.HeaderText = "t(i+1)";
+            this.tdeimas1_detencion.Name = "tdeimas1_detencion";
+            this.tdeimas1_detencion.ReadOnly = true;
+            // 
+            // Adeimas1_detencion
+            // 
+            this.Adeimas1_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Adeimas1_detencion.DataPropertyName = "Adeimas1_detencion";
+            this.Adeimas1_detencion.HeaderText = "A(i+1)";
+            this.Adeimas1_detencion.Name = "Adeimas1_detencion";
+            this.Adeimas1_detencion.ReadOnly = true;
+            // 
+            // tabRK2
+            // 
+            this.tabRK2.Controls.Add(this.grdRKReanudacionLlegadas);
+            this.tabRK2.Location = new System.Drawing.Point(4, 26);
+            this.tabRK2.Name = "tabRK2";
+            this.tabRK2.Size = new System.Drawing.Size(1072, 415);
+            this.tabRK2.TabIndex = 3;
+            this.tabRK2.Text = "RK Reanudación Llegadas";
+            this.tabRK2.UseVisualStyleBackColor = true;
+            // 
+            // grdRKReanudacionLlegadas
+            // 
+            this.grdRKReanudacionLlegadas.AllowUserToAddRows = false;
+            this.grdRKReanudacionLlegadas.AllowUserToDeleteRows = false;
+            this.grdRKReanudacionLlegadas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.grdRKReanudacionLlegadas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdRKReanudacionLlegadas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdRKReanudacionLlegadas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.grdRKReanudacionLlegadas.ColumnHeadersHeight = 30;
+            this.grdRKReanudacionLlegadas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.t_reanudLleg,
+            this.L_reanudLleg,
+            this.K1_reanudLleg,
+            this.K2_reanudLleg,
+            this.K3_reanudLleg,
+            this.K4_reanudLleg,
+            this.tdeimas1_reanudLleg,
+            this.Ldeimas1_reanudLleg,
+            this.LmenosLmenos1_reanudLleg});
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdRKReanudacionLlegadas.DefaultCellStyle = dataGridViewCellStyle6;
+            this.grdRKReanudacionLlegadas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.grdRKReanudacionLlegadas.Location = new System.Drawing.Point(0, -2);
+            this.grdRKReanudacionLlegadas.Name = "grdRKReanudacionLlegadas";
+            this.grdRKReanudacionLlegadas.ReadOnly = true;
+            this.grdRKReanudacionLlegadas.RowHeadersWidth = 51;
+            this.grdRKReanudacionLlegadas.Size = new System.Drawing.Size(1072, 419);
+            this.grdRKReanudacionLlegadas.TabIndex = 6;
+            // 
+            // t_reanudLleg
+            // 
+            this.t_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.t_reanudLleg.DataPropertyName = "t_reanudLleg";
+            this.t_reanudLleg.HeaderText = "t";
+            this.t_reanudLleg.Name = "t_reanudLleg";
+            this.t_reanudLleg.ReadOnly = true;
+            // 
+            // L_reanudLleg
+            // 
+            this.L_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.L_reanudLleg.DataPropertyName = "L_reanudLleg";
+            this.L_reanudLleg.HeaderText = "L";
+            this.L_reanudLleg.Name = "L_reanudLleg";
+            this.L_reanudLleg.ReadOnly = true;
+            // 
+            // K1_reanudLleg
+            // 
+            this.K1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K1_reanudLleg.DataPropertyName = "K1_reanudLleg";
+            this.K1_reanudLleg.HeaderText = "K1";
+            this.K1_reanudLleg.Name = "K1_reanudLleg";
+            this.K1_reanudLleg.ReadOnly = true;
+            // 
+            // K2_reanudLleg
+            // 
+            this.K2_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K2_reanudLleg.DataPropertyName = "K2_reanudLleg";
+            this.K2_reanudLleg.HeaderText = "K2";
+            this.K2_reanudLleg.Name = "K2_reanudLleg";
+            this.K2_reanudLleg.ReadOnly = true;
+            // 
+            // K3_reanudLleg
+            // 
+            this.K3_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K3_reanudLleg.DataPropertyName = "K3_reanudLleg";
+            this.K3_reanudLleg.HeaderText = "K3";
+            this.K3_reanudLleg.Name = "K3_reanudLleg";
+            this.K3_reanudLleg.ReadOnly = true;
+            // 
+            // K4_reanudLleg
+            // 
+            this.K4_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K4_reanudLleg.DataPropertyName = "K4_reanudLleg";
+            this.K4_reanudLleg.HeaderText = "K4";
+            this.K4_reanudLleg.Name = "K4_reanudLleg";
+            this.K4_reanudLleg.ReadOnly = true;
+            // 
+            // tdeimas1_reanudLleg
+            // 
+            this.tdeimas1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.tdeimas1_reanudLleg.DataPropertyName = "tdeimas1_reanudLleg";
+            this.tdeimas1_reanudLleg.HeaderText = "t(i+1)";
+            this.tdeimas1_reanudLleg.Name = "tdeimas1_reanudLleg";
+            this.tdeimas1_reanudLleg.ReadOnly = true;
+            // 
+            // Ldeimas1_reanudLleg
+            // 
+            this.Ldeimas1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Ldeimas1_reanudLleg.DataPropertyName = "Ldeimas1_reanudLleg";
+            this.Ldeimas1_reanudLleg.HeaderText = "L(i+1)";
+            this.Ldeimas1_reanudLleg.Name = "Ldeimas1_reanudLleg";
+            this.Ldeimas1_reanudLleg.ReadOnly = true;
+            // 
+            // LmenosLmenos1_reanudLleg
+            // 
+            this.LmenosLmenos1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.LmenosLmenos1_reanudLleg.DataPropertyName = "LmenosLmenos1_reanudLleg";
+            this.LmenosLmenos1_reanudLleg.HeaderText = "L - (L-1)";
+            this.LmenosLmenos1_reanudLleg.Name = "LmenosLmenos1_reanudLleg";
+            this.LmenosLmenos1_reanudLleg.ReadOnly = true;
+            // 
+            // tabRK3
+            // 
+            this.tabRK3.Controls.Add(this.grdRKReanudacionServidor);
+            this.tabRK3.Location = new System.Drawing.Point(4, 26);
+            this.tabRK3.Name = "tabRK3";
+            this.tabRK3.Size = new System.Drawing.Size(1072, 415);
+            this.tabRK3.TabIndex = 4;
+            this.tabRK3.Text = "RK Reanudación Servidor";
+            this.tabRK3.UseVisualStyleBackColor = true;
+            // 
+            // grdRKReanudacionServidor
+            // 
+            this.grdRKReanudacionServidor.AllowUserToAddRows = false;
+            this.grdRKReanudacionServidor.AllowUserToDeleteRows = false;
+            this.grdRKReanudacionServidor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.grdRKReanudacionServidor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdRKReanudacionServidor.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdRKReanudacionServidor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.grdRKReanudacionServidor.ColumnHeadersHeight = 30;
+            this.grdRKReanudacionServidor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.t_reanudServ,
+            this.S_reanudServ,
+            this.K1_reanudServ,
+            this.K2_reanudServ,
+            this.K3_reanudServ,
+            this.K4_reanudServ,
+            this.tdeimas1_reanudServ,
+            this.Sdeimas1_reanudServ});
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdRKReanudacionServidor.DefaultCellStyle = dataGridViewCellStyle8;
+            this.grdRKReanudacionServidor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.grdRKReanudacionServidor.Location = new System.Drawing.Point(0, -2);
+            this.grdRKReanudacionServidor.Name = "grdRKReanudacionServidor";
+            this.grdRKReanudacionServidor.ReadOnly = true;
+            this.grdRKReanudacionServidor.RowHeadersWidth = 51;
+            this.grdRKReanudacionServidor.Size = new System.Drawing.Size(1072, 419);
+            this.grdRKReanudacionServidor.TabIndex = 6;
+            // 
+            // t_reanudServ
+            // 
+            this.t_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.t_reanudServ.DataPropertyName = "t_reanudServ";
+            this.t_reanudServ.HeaderText = "t";
+            this.t_reanudServ.Name = "t_reanudServ";
+            this.t_reanudServ.ReadOnly = true;
+            // 
+            // S_reanudServ
+            // 
+            this.S_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.S_reanudServ.DataPropertyName = "S_reanudServ";
+            this.S_reanudServ.HeaderText = "S";
+            this.S_reanudServ.Name = "S_reanudServ";
+            this.S_reanudServ.ReadOnly = true;
+            // 
+            // K1_reanudServ
+            // 
+            this.K1_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K1_reanudServ.DataPropertyName = "K1_reanudServ";
+            this.K1_reanudServ.HeaderText = "K1";
+            this.K1_reanudServ.Name = "K1_reanudServ";
+            this.K1_reanudServ.ReadOnly = true;
+            // 
+            // K2_reanudServ
+            // 
+            this.K2_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K2_reanudServ.DataPropertyName = "K2_reanudServ";
+            this.K2_reanudServ.HeaderText = "K2";
+            this.K2_reanudServ.Name = "K2_reanudServ";
+            this.K2_reanudServ.ReadOnly = true;
+            // 
+            // K3_reanudServ
+            // 
+            this.K3_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K3_reanudServ.DataPropertyName = "K3_reanudServ";
+            this.K3_reanudServ.HeaderText = "K3";
+            this.K3_reanudServ.Name = "K3_reanudServ";
+            this.K3_reanudServ.ReadOnly = true;
+            // 
+            // K4_reanudServ
+            // 
+            this.K4_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.K4_reanudServ.DataPropertyName = "K4_reanudServ";
+            this.K4_reanudServ.HeaderText = "K4";
+            this.K4_reanudServ.Name = "K4_reanudServ";
+            this.K4_reanudServ.ReadOnly = true;
+            // 
+            // tdeimas1_reanudServ
+            // 
+            this.tdeimas1_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.tdeimas1_reanudServ.DataPropertyName = "tdeimas1_reanudServ";
+            this.tdeimas1_reanudServ.HeaderText = "t(i+1)";
+            this.tdeimas1_reanudServ.Name = "tdeimas1_reanudServ";
+            this.tdeimas1_reanudServ.ReadOnly = true;
+            // 
+            // Sdeimas1_reanudServ
+            // 
+            this.Sdeimas1_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Sdeimas1_reanudServ.DataPropertyName = "Sdeimas1_reanudServ";
+            this.Sdeimas1_reanudServ.HeaderText = "S(i+1)";
+            this.Sdeimas1_reanudServ.Name = "Sdeimas1_reanudServ";
+            this.Sdeimas1_reanudServ.ReadOnly = true;
+            // 
             // evento
             // 
             this.evento.DataPropertyName = "evento";
@@ -384,11 +958,47 @@
             // reloj
             // 
             this.reloj.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.reloj.DataPropertyName = "reloj";
             this.reloj.HeaderText = "Reloj";
             this.reloj.MinimumWidth = 8;
             this.reloj.Name = "reloj";
             this.reloj.ReadOnly = true;
             this.reloj.Width = 85;
+            // 
+            // rndTipoDetencion
+            // 
+            this.rndTipoDetencion.DataPropertyName = "rndTipoDetencion";
+            this.rndTipoDetencion.HeaderText = "RND Tipo Detención";
+            this.rndTipoDetencion.Name = "rndTipoDetencion";
+            this.rndTipoDetencion.ReadOnly = true;
+            // 
+            // tipoDetencion
+            // 
+            this.tipoDetencion.DataPropertyName = "tipoDetencion";
+            this.tipoDetencion.HeaderText = "Tipo Detención";
+            this.tipoDetencion.Name = "tipoDetencion";
+            this.tipoDetencion.ReadOnly = true;
+            // 
+            // beta
+            // 
+            this.beta.DataPropertyName = "beta";
+            this.beta.HeaderText = "Beta (B)";
+            this.beta.Name = "beta";
+            this.beta.ReadOnly = true;
+            // 
+            // tiempoDeDetencion
+            // 
+            this.tiempoDeDetencion.DataPropertyName = "tiempoDeDetencion";
+            this.tiempoDeDetencion.HeaderText = "Tiempo de Detención";
+            this.tiempoDeDetencion.Name = "tiempoDeDetencion";
+            this.tiempoDeDetencion.ReadOnly = true;
+            // 
+            // horaDetencion
+            // 
+            this.horaDetencion.DataPropertyName = "horaDetencion";
+            this.horaDetencion.HeaderText = "Hora Detención";
+            this.horaDetencion.Name = "horaDetencion";
+            this.horaDetencion.ReadOnly = true;
             // 
             // rndLlegada
             // 
@@ -415,6 +1025,27 @@
             this.proximaLlegada.MinimumWidth = 6;
             this.proximaLlegada.Name = "proximaLlegada";
             this.proximaLlegada.ReadOnly = true;
+            // 
+            // l
+            // 
+            this.l.DataPropertyName = "l";
+            this.l.HeaderText = "Parámetro L";
+            this.l.Name = "l";
+            this.l.ReadOnly = true;
+            // 
+            // tiempoDuracionDetencionLlegadas
+            // 
+            this.tiempoDuracionDetencionLlegadas.DataPropertyName = "tiempoDuracionDetencionLlegadas";
+            this.tiempoDuracionDetencionLlegadas.HeaderText = "Duración de Detención Llegada";
+            this.tiempoDuracionDetencionLlegadas.Name = "tiempoDuracionDetencionLlegadas";
+            this.tiempoDuracionDetencionLlegadas.ReadOnly = true;
+            // 
+            // horaReanudacionLlegadas
+            // 
+            this.horaReanudacionLlegadas.DataPropertyName = "horaReanudacionLlegadas";
+            this.horaReanudacionLlegadas.HeaderText = "Hora Reanudación Llegadas";
+            this.horaReanudacionLlegadas.Name = "horaReanudacionLlegadas";
+            this.horaReanudacionLlegadas.ReadOnly = true;
             // 
             // rndFinAtencionParking
             // 
@@ -457,7 +1088,7 @@
             // 
             this.proximoFinAtencionParking3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking3.DataPropertyName = "proximoFinAtencionParking3";
-            this.proximoFinAtencionParking3.HeaderText = "Prox Fin AP3";
+            this.proximoFinAtencionParking3.HeaderText = "Prox. Fin AP3";
             this.proximoFinAtencionParking3.MinimumWidth = 6;
             this.proximoFinAtencionParking3.Name = "proximoFinAtencionParking3";
             this.proximoFinAtencionParking3.ReadOnly = true;
@@ -466,7 +1097,7 @@
             // 
             this.proximoFinAtencionParking4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking4.DataPropertyName = "proximoFinAtencionParking4";
-            this.proximoFinAtencionParking4.HeaderText = "Prox Fin AP4";
+            this.proximoFinAtencionParking4.HeaderText = "Prox. Fin AP4";
             this.proximoFinAtencionParking4.MinimumWidth = 6;
             this.proximoFinAtencionParking4.Name = "proximoFinAtencionParking4";
             this.proximoFinAtencionParking4.ReadOnly = true;
@@ -502,7 +1133,7 @@
             // 
             this.proximoFinAtencionEntrada1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionEntrada1.DataPropertyName = "proximoFinAtencionEntrada1";
-            this.proximoFinAtencionEntrada1.HeaderText = "Prox. fin AE1";
+            this.proximoFinAtencionEntrada1.HeaderText = "Prox. Fin AE1";
             this.proximoFinAtencionEntrada1.MinimumWidth = 6;
             this.proximoFinAtencionEntrada1.Name = "proximoFinAtencionEntrada1";
             this.proximoFinAtencionEntrada1.ReadOnly = true;
@@ -667,7 +1298,7 @@
             // 
             this.proximoFinCC3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCC3.DataPropertyName = "proximoFinCC3";
-            this.proximoFinCC3.HeaderText = "Prox Fin CC3";
+            this.proximoFinCC3.HeaderText = "Prox. Fin CC3";
             this.proximoFinCC3.MinimumWidth = 8;
             this.proximoFinCC3.Name = "proximoFinCC3";
             this.proximoFinCC3.ReadOnly = true;
@@ -694,7 +1325,7 @@
             // 
             this.proximoFinCC4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCC4.DataPropertyName = "proximoFinCC4";
-            this.proximoFinCC4.HeaderText = "Prox Fin CC4";
+            this.proximoFinCC4.HeaderText = "Prox. Fin CC4";
             this.proximoFinCC4.MinimumWidth = 8;
             this.proximoFinCC4.Name = "proximoFinCC4";
             this.proximoFinCC4.ReadOnly = true;
@@ -721,10 +1352,45 @@
             // 
             this.proximoFinCCM.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCCM.DataPropertyName = "proximoFinCCM";
-            this.proximoFinCCM.HeaderText = "Prox Fin CCM";
+            this.proximoFinCCM.HeaderText = "Prox. Fin CCM";
             this.proximoFinCCM.MinimumWidth = 8;
             this.proximoFinCCM.Name = "proximoFinCCM";
             this.proximoFinCCM.ReadOnly = true;
+            // 
+            // s
+            // 
+            this.s.DataPropertyName = "s";
+            this.s.HeaderText = "Parámetro S";
+            this.s.Name = "s";
+            this.s.ReadOnly = true;
+            // 
+            // tiempoDuracionDetencionServidor
+            // 
+            this.tiempoDuracionDetencionServidor.DataPropertyName = "tiempoDuracionDetencionServidor";
+            this.tiempoDuracionDetencionServidor.HeaderText = "Duración Detención Servidor";
+            this.tiempoDuracionDetencionServidor.Name = "tiempoDuracionDetencionServidor";
+            this.tiempoDuracionDetencionServidor.ReadOnly = true;
+            // 
+            // horaReanudacionServidor
+            // 
+            this.horaReanudacionServidor.DataPropertyName = "horaReanudacionServidor";
+            this.horaReanudacionServidor.HeaderText = "Hora de Reanudación Servidor";
+            this.horaReanudacionServidor.Name = "horaReanudacionServidor";
+            this.horaReanudacionServidor.ReadOnly = true;
+            // 
+            // ingresoBloqueado
+            // 
+            this.ingresoBloqueado.DataPropertyName = "ingresoBloqueado";
+            this.ingresoBloqueado.HeaderText = "Ingreso Bloqueado";
+            this.ingresoBloqueado.Name = "ingresoBloqueado";
+            this.ingresoBloqueado.ReadOnly = true;
+            // 
+            // colaBloqueoLlegadas
+            // 
+            this.colaBloqueoLlegadas.DataPropertyName = "colaBloqueoLlegadas";
+            this.colaBloqueoLlegadas.HeaderText = "Cola Bloqueo Llegadas";
+            this.colaBloqueoLlegadas.Name = "colaBloqueoLlegadas";
+            this.colaBloqueoLlegadas.ReadOnly = true;
             // 
             // colaPark1
             // 
@@ -1088,552 +1754,6 @@
             this.tiempoEntradaDespuesDeEstacionar.Name = "tiempoEntradaDespuesDeEstacionar";
             this.tiempoEntradaDespuesDeEstacionar.ReadOnly = true;
             // 
-            // btnObjetosTemporales
-            // 
-            this.btnObjetosTemporales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(217)))), ((int)(((byte)(130)))));
-            this.btnObjetosTemporales.FlatAppearance.BorderSize = 0;
-            this.btnObjetosTemporales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnObjetosTemporales.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
-            this.btnObjetosTemporales.ForeColor = System.Drawing.Color.White;
-            this.btnObjetosTemporales.Location = new System.Drawing.Point(550, 633);
-            this.btnObjetosTemporales.Name = "btnObjetosTemporales";
-            this.btnObjetosTemporales.Size = new System.Drawing.Size(708, 39);
-            this.btnObjetosTemporales.TabIndex = 8;
-            this.btnObjetosTemporales.Text = "Ver objetos temporales";
-            this.btnObjetosTemporales.UseVisualStyleBackColor = false;
-            // 
-            // btnInformación
-            // 
-            this.btnInformación.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(180)))), ((int)(((byte)(220)))));
-            this.btnInformación.FlatAppearance.BorderSize = 0;
-            this.btnInformación.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInformación.Font = new System.Drawing.Font("Microsoft Tai Le", 18F);
-            this.btnInformación.ForeColor = System.Drawing.Color.White;
-            this.btnInformación.Location = new System.Drawing.Point(200, 547);
-            this.btnInformación.Name = "btnInformación";
-            this.btnInformación.Size = new System.Drawing.Size(708, 39);
-            this.btnInformación.TabIndex = 9;
-            this.btnInformación.Text = "Ver información";
-            this.btnInformación.UseVisualStyleBackColor = false;
-            this.btnInformación.Click += new System.EventHandler(this.btnInformación_Click);
-            // 
-            // tabControl
-            // 
-            this.tabControl.Controls.Add(this.tabSimulacion);
-            this.tabControl.Controls.Add(this.tabTemporales);
-            this.tabControl.Controls.Add(this.tabRK1);
-            this.tabControl.Controls.Add(this.tabRK2);
-            this.tabControl.Controls.Add(this.tabRK3);
-            this.tabControl.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl.Location = new System.Drawing.Point(0, 96);
-            this.tabControl.Name = "tabControl";
-            this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(1080, 445);
-            this.tabControl.TabIndex = 10;
-            // 
-            // tabSimulacion
-            // 
-            this.tabSimulacion.Controls.Add(this.grdSimulacion);
-            this.tabSimulacion.Location = new System.Drawing.Point(4, 26);
-            this.tabSimulacion.Name = "tabSimulacion";
-            this.tabSimulacion.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSimulacion.Size = new System.Drawing.Size(1072, 415);
-            this.tabSimulacion.TabIndex = 0;
-            this.tabSimulacion.Text = "Simulación";
-            this.tabSimulacion.UseVisualStyleBackColor = true;
-            // 
-            // tabTemporales
-            // 
-            this.tabTemporales.Controls.Add(this.lblPersonasMayores);
-            this.tabTemporales.Controls.Add(this.grdPersonasMayores);
-            this.tabTemporales.Controls.Add(this.lblPersonas);
-            this.tabTemporales.Controls.Add(this.grdPersonas);
-            this.tabTemporales.Controls.Add(this.lblGrupos);
-            this.tabTemporales.Controls.Add(this.grdGrupos);
-            this.tabTemporales.Controls.Add(this.lblAutos);
-            this.tabTemporales.Controls.Add(this.grdAutos);
-            this.tabTemporales.Location = new System.Drawing.Point(4, 26);
-            this.tabTemporales.Name = "tabTemporales";
-            this.tabTemporales.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTemporales.Size = new System.Drawing.Size(1072, 415);
-            this.tabTemporales.TabIndex = 1;
-            this.tabTemporales.Text = "Objetos Temporales";
-            this.tabTemporales.UseVisualStyleBackColor = true;
-            // 
-            // lblPersonasMayores
-            // 
-            this.lblPersonasMayores.AutoSize = true;
-            this.lblPersonasMayores.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonasMayores.Location = new System.Drawing.Point(838, 18);
-            this.lblPersonasMayores.Name = "lblPersonasMayores";
-            this.lblPersonasMayores.Size = new System.Drawing.Size(210, 30);
-            this.lblPersonasMayores.TabIndex = 7;
-            this.lblPersonasMayores.Text = "Personas mayores";
-            // 
-            // grdPersonasMayores
-            // 
-            this.grdPersonasMayores.AllowUserToAddRows = false;
-            this.grdPersonasMayores.AllowUserToDeleteRows = false;
-            this.grdPersonasMayores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdPersonasMayores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.estadoPersonaMayor});
-            this.grdPersonasMayores.Location = new System.Drawing.Point(804, 62);
-            this.grdPersonasMayores.Name = "grdPersonasMayores";
-            this.grdPersonasMayores.ReadOnly = true;
-            this.grdPersonasMayores.Size = new System.Drawing.Size(268, 353);
-            this.grdPersonasMayores.TabIndex = 6;
-            // 
-            // estadoPersonaMayor
-            // 
-            this.estadoPersonaMayor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.estadoPersonaMayor.HeaderText = "Estado";
-            this.estadoPersonaMayor.Name = "estadoPersonaMayor";
-            this.estadoPersonaMayor.ReadOnly = true;
-            // 
-            // lblPersonas
-            // 
-            this.lblPersonas.AutoSize = true;
-            this.lblPersonas.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonas.Location = new System.Drawing.Point(618, 18);
-            this.lblPersonas.Name = "lblPersonas";
-            this.lblPersonas.Size = new System.Drawing.Size(110, 30);
-            this.lblPersonas.TabIndex = 5;
-            this.lblPersonas.Text = "Personas";
-            // 
-            // grdPersonas
-            // 
-            this.grdPersonas.AllowUserToAddRows = false;
-            this.grdPersonas.AllowUserToDeleteRows = false;
-            this.grdPersonas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdPersonas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.estadoPersona});
-            this.grdPersonas.Location = new System.Drawing.Point(536, 62);
-            this.grdPersonas.Name = "grdPersonas";
-            this.grdPersonas.ReadOnly = true;
-            this.grdPersonas.Size = new System.Drawing.Size(269, 353);
-            this.grdPersonas.TabIndex = 4;
-            // 
-            // estadoPersona
-            // 
-            this.estadoPersona.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.estadoPersona.HeaderText = "Estado";
-            this.estadoPersona.Name = "estadoPersona";
-            this.estadoPersona.ReadOnly = true;
-            // 
-            // lblGrupos
-            // 
-            this.lblGrupos.AutoSize = true;
-            this.lblGrupos.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGrupos.Location = new System.Drawing.Point(358, 18);
-            this.lblGrupos.Name = "lblGrupos";
-            this.lblGrupos.Size = new System.Drawing.Size(93, 30);
-            this.lblGrupos.TabIndex = 3;
-            this.lblGrupos.Text = "Grupos";
-            // 
-            // grdGrupos
-            // 
-            this.grdGrupos.AllowUserToAddRows = false;
-            this.grdGrupos.AllowUserToDeleteRows = false;
-            this.grdGrupos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdGrupos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.estadoGrupo});
-            this.grdGrupos.Location = new System.Drawing.Point(268, 62);
-            this.grdGrupos.Name = "grdGrupos";
-            this.grdGrupos.ReadOnly = true;
-            this.grdGrupos.Size = new System.Drawing.Size(269, 353);
-            this.grdGrupos.TabIndex = 2;
-            // 
-            // estadoGrupo
-            // 
-            this.estadoGrupo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.estadoGrupo.HeaderText = "Estado";
-            this.estadoGrupo.Name = "estadoGrupo";
-            this.estadoGrupo.ReadOnly = true;
-            // 
-            // lblAutos
-            // 
-            this.lblAutos.AutoSize = true;
-            this.lblAutos.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutos.Location = new System.Drawing.Point(95, 18);
-            this.lblAutos.Name = "lblAutos";
-            this.lblAutos.Size = new System.Drawing.Size(76, 30);
-            this.lblAutos.TabIndex = 1;
-            this.lblAutos.Text = "Autos";
-            // 
-            // grdAutos
-            // 
-            this.grdAutos.AllowUserToAddRows = false;
-            this.grdAutos.AllowUserToDeleteRows = false;
-            this.grdAutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdAutos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.estadoAuto});
-            this.grdAutos.Location = new System.Drawing.Point(0, 62);
-            this.grdAutos.Name = "grdAutos";
-            this.grdAutos.ReadOnly = true;
-            this.grdAutos.Size = new System.Drawing.Size(269, 353);
-            this.grdAutos.TabIndex = 0;
-            // 
-            // estadoAuto
-            // 
-            this.estadoAuto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.estadoAuto.HeaderText = "Estado";
-            this.estadoAuto.Name = "estadoAuto";
-            this.estadoAuto.ReadOnly = true;
-            // 
-            // tabRK1
-            // 
-            this.tabRK1.Controls.Add(this.grdRKDetencion);
-            this.tabRK1.Location = new System.Drawing.Point(4, 26);
-            this.tabRK1.Name = "tabRK1";
-            this.tabRK1.Size = new System.Drawing.Size(1072, 415);
-            this.tabRK1.TabIndex = 2;
-            this.tabRK1.Text = "RK Detención";
-            this.tabRK1.UseVisualStyleBackColor = true;
-            // 
-            // tabRK2
-            // 
-            this.tabRK2.Controls.Add(this.grdRKReanudacionLlegadas);
-            this.tabRK2.Location = new System.Drawing.Point(4, 26);
-            this.tabRK2.Name = "tabRK2";
-            this.tabRK2.Size = new System.Drawing.Size(1072, 415);
-            this.tabRK2.TabIndex = 3;
-            this.tabRK2.Text = "RK Reanudación Llegadas";
-            this.tabRK2.UseVisualStyleBackColor = true;
-            // 
-            // tabRK3
-            // 
-            this.tabRK3.Controls.Add(this.grdReanudacionServidor);
-            this.tabRK3.Location = new System.Drawing.Point(4, 26);
-            this.tabRK3.Name = "tabRK3";
-            this.tabRK3.Size = new System.Drawing.Size(1072, 415);
-            this.tabRK3.TabIndex = 4;
-            this.tabRK3.Text = "RK Reanudación Servidor";
-            this.tabRK3.UseVisualStyleBackColor = true;
-            // 
-            // grdRKDetencion
-            // 
-            this.grdRKDetencion.AllowUserToAddRows = false;
-            this.grdRKDetencion.AllowUserToDeleteRows = false;
-            this.grdRKDetencion.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.grdRKDetencion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdRKDetencion.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdRKDetencion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.grdRKDetencion.ColumnHeadersHeight = 30;
-            this.grdRKDetencion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.t_detencion,
-            this.A_detencion,
-            this.K1_detencion,
-            this.K2_detencion,
-            this.K3_detencion,
-            this.K4_detencion,
-            this.tdeimas1_detencion,
-            this.Adeimas1_detencion});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdRKDetencion.DefaultCellStyle = dataGridViewCellStyle4;
-            this.grdRKDetencion.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.grdRKDetencion.Location = new System.Drawing.Point(0, -2);
-            this.grdRKDetencion.Name = "grdRKDetencion";
-            this.grdRKDetencion.ReadOnly = true;
-            this.grdRKDetencion.RowHeadersWidth = 51;
-            this.grdRKDetencion.Size = new System.Drawing.Size(1072, 419);
-            this.grdRKDetencion.TabIndex = 5;
-            // 
-            // grdRKReanudacionLlegadas
-            // 
-            this.grdRKReanudacionLlegadas.AllowUserToAddRows = false;
-            this.grdRKReanudacionLlegadas.AllowUserToDeleteRows = false;
-            this.grdRKReanudacionLlegadas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.grdRKReanudacionLlegadas.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdRKReanudacionLlegadas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdRKReanudacionLlegadas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.grdRKReanudacionLlegadas.ColumnHeadersHeight = 30;
-            this.grdRKReanudacionLlegadas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.t_reanudLleg,
-            this.L_reanudLleg,
-            this.K1_reanudLleg,
-            this.K2_reanudLleg,
-            this.K3_reanudLleg,
-            this.K4_reanudLleg,
-            this.tdeimas1_reanudLleg,
-            this.Ldeimas1_reanudLleg,
-            this.LmenosLmenos1_reanudLleg});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdRKReanudacionLlegadas.DefaultCellStyle = dataGridViewCellStyle6;
-            this.grdRKReanudacionLlegadas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.grdRKReanudacionLlegadas.Location = new System.Drawing.Point(0, -2);
-            this.grdRKReanudacionLlegadas.Name = "grdRKReanudacionLlegadas";
-            this.grdRKReanudacionLlegadas.ReadOnly = true;
-            this.grdRKReanudacionLlegadas.RowHeadersWidth = 51;
-            this.grdRKReanudacionLlegadas.Size = new System.Drawing.Size(1072, 419);
-            this.grdRKReanudacionLlegadas.TabIndex = 6;
-            // 
-            // t_reanudLleg
-            // 
-            this.t_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.t_reanudLleg.DataPropertyName = "t_reanudLleg";
-            this.t_reanudLleg.HeaderText = "t";
-            this.t_reanudLleg.Name = "t_reanudLleg";
-            this.t_reanudLleg.ReadOnly = true;
-            // 
-            // L_reanudLleg
-            // 
-            this.L_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.L_reanudLleg.DataPropertyName = "L_reanudLleg";
-            this.L_reanudLleg.HeaderText = "L";
-            this.L_reanudLleg.Name = "L_reanudLleg";
-            this.L_reanudLleg.ReadOnly = true;
-            // 
-            // K1_reanudLleg
-            // 
-            this.K1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K1_reanudLleg.DataPropertyName = "K1_reanudLleg";
-            this.K1_reanudLleg.HeaderText = "K1";
-            this.K1_reanudLleg.Name = "K1_reanudLleg";
-            this.K1_reanudLleg.ReadOnly = true;
-            // 
-            // K2_reanudLleg
-            // 
-            this.K2_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K2_reanudLleg.DataPropertyName = "K2_reanudLleg";
-            this.K2_reanudLleg.HeaderText = "K2";
-            this.K2_reanudLleg.Name = "K2_reanudLleg";
-            this.K2_reanudLleg.ReadOnly = true;
-            // 
-            // K3_reanudLleg
-            // 
-            this.K3_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K3_reanudLleg.DataPropertyName = "K3_reanudLleg";
-            this.K3_reanudLleg.HeaderText = "K3";
-            this.K3_reanudLleg.Name = "K3_reanudLleg";
-            this.K3_reanudLleg.ReadOnly = true;
-            // 
-            // K4_reanudLleg
-            // 
-            this.K4_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K4_reanudLleg.DataPropertyName = "K4_reanudLleg";
-            this.K4_reanudLleg.HeaderText = "K4";
-            this.K4_reanudLleg.Name = "K4_reanudLleg";
-            this.K4_reanudLleg.ReadOnly = true;
-            // 
-            // tdeimas1_reanudLleg
-            // 
-            this.tdeimas1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.tdeimas1_reanudLleg.DataPropertyName = "tdeimas1_reanudLleg";
-            this.tdeimas1_reanudLleg.HeaderText = "t(i+1)";
-            this.tdeimas1_reanudLleg.Name = "tdeimas1_reanudLleg";
-            this.tdeimas1_reanudLleg.ReadOnly = true;
-            // 
-            // Ldeimas1_reanudLleg
-            // 
-            this.Ldeimas1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Ldeimas1_reanudLleg.DataPropertyName = "Ldeimas1_reanudLleg";
-            this.Ldeimas1_reanudLleg.HeaderText = "L(i+1)";
-            this.Ldeimas1_reanudLleg.Name = "Ldeimas1_reanudLleg";
-            this.Ldeimas1_reanudLleg.ReadOnly = true;
-            // 
-            // LmenosLmenos1_reanudLleg
-            // 
-            this.LmenosLmenos1_reanudLleg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.LmenosLmenos1_reanudLleg.DataPropertyName = "LmenosLmenos1_reanudLleg";
-            this.LmenosLmenos1_reanudLleg.HeaderText = "L - (L-1)";
-            this.LmenosLmenos1_reanudLleg.Name = "LmenosLmenos1_reanudLleg";
-            this.LmenosLmenos1_reanudLleg.ReadOnly = true;
-            // 
-            // grdReanudacionServidor
-            // 
-            this.grdReanudacionServidor.AllowUserToAddRows = false;
-            this.grdReanudacionServidor.AllowUserToDeleteRows = false;
-            this.grdReanudacionServidor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.grdReanudacionServidor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdReanudacionServidor.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdReanudacionServidor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.grdReanudacionServidor.ColumnHeadersHeight = 30;
-            this.grdReanudacionServidor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.t_reanudServ,
-            this.S_reanudServ,
-            this.K1_reanudServ,
-            this.K2_reanudServ,
-            this.K3_reanudServ,
-            this.K4_reanudServ,
-            this.tdeimas1_reanudServ,
-            this.Sdeimas1_reanudServ});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdReanudacionServidor.DefaultCellStyle = dataGridViewCellStyle8;
-            this.grdReanudacionServidor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.grdReanudacionServidor.Location = new System.Drawing.Point(0, -2);
-            this.grdReanudacionServidor.Name = "grdReanudacionServidor";
-            this.grdReanudacionServidor.ReadOnly = true;
-            this.grdReanudacionServidor.RowHeadersWidth = 51;
-            this.grdReanudacionServidor.Size = new System.Drawing.Size(1072, 419);
-            this.grdReanudacionServidor.TabIndex = 6;
-            // 
-            // t_reanudServ
-            // 
-            this.t_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.t_reanudServ.DataPropertyName = "t_reanudServ";
-            this.t_reanudServ.HeaderText = "t";
-            this.t_reanudServ.Name = "t_reanudServ";
-            this.t_reanudServ.ReadOnly = true;
-            // 
-            // S_reanudServ
-            // 
-            this.S_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.S_reanudServ.DataPropertyName = "S_reanudServ";
-            this.S_reanudServ.HeaderText = "S";
-            this.S_reanudServ.Name = "S_reanudServ";
-            this.S_reanudServ.ReadOnly = true;
-            // 
-            // K1_reanudServ
-            // 
-            this.K1_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K1_reanudServ.DataPropertyName = "K1_reanudServ";
-            this.K1_reanudServ.HeaderText = "K1";
-            this.K1_reanudServ.Name = "K1_reanudServ";
-            this.K1_reanudServ.ReadOnly = true;
-            // 
-            // K2_reanudServ
-            // 
-            this.K2_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K2_reanudServ.DataPropertyName = "K2_reanudServ";
-            this.K2_reanudServ.HeaderText = "K2";
-            this.K2_reanudServ.Name = "K2_reanudServ";
-            this.K2_reanudServ.ReadOnly = true;
-            // 
-            // K3_reanudServ
-            // 
-            this.K3_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K3_reanudServ.DataPropertyName = "K3_reanudServ";
-            this.K3_reanudServ.HeaderText = "K3";
-            this.K3_reanudServ.Name = "K3_reanudServ";
-            this.K3_reanudServ.ReadOnly = true;
-            // 
-            // K4_reanudServ
-            // 
-            this.K4_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K4_reanudServ.DataPropertyName = "K4_reanudServ";
-            this.K4_reanudServ.HeaderText = "K4";
-            this.K4_reanudServ.Name = "K4_reanudServ";
-            this.K4_reanudServ.ReadOnly = true;
-            // 
-            // tdeimas1_reanudServ
-            // 
-            this.tdeimas1_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.tdeimas1_reanudServ.DataPropertyName = "tdeimas1_reanudServ";
-            this.tdeimas1_reanudServ.HeaderText = "t(i+1)";
-            this.tdeimas1_reanudServ.Name = "tdeimas1_reanudServ";
-            this.tdeimas1_reanudServ.ReadOnly = true;
-            // 
-            // Sdeimas1_reanudServ
-            // 
-            this.Sdeimas1_reanudServ.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Sdeimas1_reanudServ.DataPropertyName = "Sdeimas1_reanudServ";
-            this.Sdeimas1_reanudServ.HeaderText = "S(i+1)";
-            this.Sdeimas1_reanudServ.Name = "Sdeimas1_reanudServ";
-            this.Sdeimas1_reanudServ.ReadOnly = true;
-            // 
-            // t_detencion
-            // 
-            this.t_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.t_detencion.DataPropertyName = "t_detencion";
-            this.t_detencion.HeaderText = "t";
-            this.t_detencion.Name = "t_detencion";
-            this.t_detencion.ReadOnly = true;
-            // 
-            // A_detencion
-            // 
-            this.A_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.A_detencion.DataPropertyName = "A_detencion";
-            this.A_detencion.HeaderText = "A";
-            this.A_detencion.Name = "A_detencion";
-            this.A_detencion.ReadOnly = true;
-            // 
-            // K1_detencion
-            // 
-            this.K1_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K1_detencion.DataPropertyName = "K1_detencion";
-            this.K1_detencion.HeaderText = "K1";
-            this.K1_detencion.Name = "K1_detencion";
-            this.K1_detencion.ReadOnly = true;
-            // 
-            // K2_detencion
-            // 
-            this.K2_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K2_detencion.DataPropertyName = "K2_detencion";
-            this.K2_detencion.HeaderText = "K2";
-            this.K2_detencion.Name = "K2_detencion";
-            this.K2_detencion.ReadOnly = true;
-            // 
-            // K3_detencion
-            // 
-            this.K3_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K3_detencion.DataPropertyName = "K3_detencion";
-            this.K3_detencion.HeaderText = "K3";
-            this.K3_detencion.Name = "K3_detencion";
-            this.K3_detencion.ReadOnly = true;
-            // 
-            // K4_detencion
-            // 
-            this.K4_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.K4_detencion.DataPropertyName = "K4_detencion";
-            this.K4_detencion.HeaderText = "K4";
-            this.K4_detencion.Name = "K4_detencion";
-            this.K4_detencion.ReadOnly = true;
-            // 
-            // tdeimas1_detencion
-            // 
-            this.tdeimas1_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.tdeimas1_detencion.DataPropertyName = "tdeimas1_detencion";
-            this.tdeimas1_detencion.HeaderText = "t(i+1)";
-            this.tdeimas1_detencion.Name = "tdeimas1_detencion";
-            this.tdeimas1_detencion.ReadOnly = true;
-            // 
-            // Adeimas1_detencion
-            // 
-            this.Adeimas1_detencion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Adeimas1_detencion.DataPropertyName = "Adeimas1_detencion";
-            this.Adeimas1_detencion.HeaderText = "A(i+1)";
-            this.Adeimas1_detencion.Name = "Adeimas1_detencion";
-            this.Adeimas1_detencion.ReadOnly = true;
-            // 
             // Visualizador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1663,11 +1783,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.grdGrupos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdAutos)).EndInit();
             this.tabRK1.ResumeLayout(false);
-            this.tabRK2.ResumeLayout(false);
-            this.tabRK3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grdRKDetencion)).EndInit();
+            this.tabRK2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grdRKReanudacionLlegadas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdReanudacionServidor)).EndInit();
+            this.tabRK3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grdRKReanudacionServidor)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1698,11 +1818,50 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoAuto;
         private System.Windows.Forms.PictureBox picX;
         private System.Windows.Forms.PictureBox picArrow;
+        private System.Windows.Forms.TabPage tabRK1;
+        private System.Windows.Forms.TabPage tabRK2;
+        private System.Windows.Forms.TabPage tabRK3;
+        public System.Windows.Forms.DataGridView grdRKDetencion;
+        public System.Windows.Forms.DataGridView grdRKReanudacionLlegadas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn t_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn L_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K1_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K2_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K3_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K4_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tdeimas1_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ldeimas1_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LmenosLmenos1_reanudLleg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn t_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn A_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K1_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K2_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K3_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K4_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tdeimas1_detencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Adeimas1_detencion;
+        public System.Windows.Forms.DataGridView grdRKReanudacionServidor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn t_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn S_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K1_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K2_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K3_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn K4_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tdeimas1_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sdeimas1_reanudServ;
         private System.Windows.Forms.DataGridViewTextBoxColumn evento;
         private System.Windows.Forms.DataGridViewTextBoxColumn reloj;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rndTipoDetencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tipoDetencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn beta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tiempoDeDetencion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn horaDetencion;
         private System.Windows.Forms.DataGridViewTextBoxColumn rndLlegada;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoLlegada;
         private System.Windows.Forms.DataGridViewTextBoxColumn proximaLlegada;
+        private System.Windows.Forms.DataGridViewTextBoxColumn l;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tiempoDuracionDetencionLlegadas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn horaReanudacionLlegadas;
         private System.Windows.Forms.DataGridViewTextBoxColumn rndFinAtencionParking;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoFinAtencionParking;
         private System.Windows.Forms.DataGridViewTextBoxColumn proximoFinAtencionParking1;
@@ -1738,6 +1897,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn rndFinCCM;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoFinCCM;
         private System.Windows.Forms.DataGridViewTextBoxColumn proximoFinCCM;
+        private System.Windows.Forms.DataGridViewTextBoxColumn s;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tiempoDuracionDetencionServidor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn horaReanudacionServidor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colaBloqueoLlegadas;
         private System.Windows.Forms.DataGridViewTextBoxColumn colaPark1;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoCajaPark1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colaPark2;
@@ -1779,36 +1942,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoEnConseguirEntrada;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidadPromedioGenteEnColaEntrada;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoEntradaDespuesDeEstacionar;
-        private System.Windows.Forms.TabPage tabRK1;
-        private System.Windows.Forms.TabPage tabRK2;
-        private System.Windows.Forms.TabPage tabRK3;
-        public System.Windows.Forms.DataGridView grdRKDetencion;
-        public System.Windows.Forms.DataGridView grdRKReanudacionLlegadas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn t_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn L_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K1_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K2_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K3_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K4_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tdeimas1_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ldeimas1_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LmenosLmenos1_reanudLleg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn t_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn A_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K1_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K2_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K3_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K4_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tdeimas1_detencion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Adeimas1_detencion;
-        public System.Windows.Forms.DataGridView grdReanudacionServidor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn t_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn S_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K1_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K2_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K3_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn K4_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tdeimas1_reanudServ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Sdeimas1_reanudServ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ingresoBloqueado;
     }
 }
