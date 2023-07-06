@@ -3490,54 +3490,7 @@ namespace Combinado
             }
             else
             {
-                //int indiceFinACM = -1;
-                //if (Convert.ToInt32(filaAnterior["colaComidaMayores"]) > 0)
-                //{
-                //    rndFinACM = generarRandom();
-                //    tiempoFinACM = generarTiempoExponencial(rndFinACM, mediaACM);
-                //    proximoFinACM = generarProximo(reloj, tiempoFinACM);
-
-                //    // Recorremos la grid para encontrar el indice de la persona mayor
-                //    for (int i = 0; i < grdPersonasMayores.Rows.Count; i++)
-                //    {
-                //        DataGridViewRow fila = grdPersonasMayores.Rows[i];
-                //        if (fila.Cells[0].Value.ToString() == "SiendoAt")
-                //        {
-                //            indiceFinACM = i;
-                //            break;
-                //        }
-                //    }
-
-                //    // Elimino el objeto
-                //    grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
-
-                //    // Recorro y cambio el estado de Encola a SiendoAtendido
-                //    foreach (DataGridViewRow fila in grdPersonasMayores.Rows)
-                //    {
-                //        if (fila.Cells[0].Value.ToString() == "EnColaComidaMayores")
-                //        {
-                //            fila.Cells[0].Value = "SiendoAt";
-                //            break;
-                //        }
-                //    }
-                //}
-                //else
-                //{
-                //    for (int i = 0; i < grdPersonasMayores.Rows.Count; i++)
-                //    {
-                //        DataGridViewRow fila = grdPersonasMayores.Rows[i];
-                //        if (fila.Cells[0].Value.ToString() == "SiendoAt")
-                //        {
-                //            indiceFinACM = i;
-                //            break;
-                //        }
-                //    }
-                //    ;
-                //    grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
-                //}
-
                 int indiceFinACM = -1;
-
                 if (Convert.ToInt32(filaAnterior["colaComidaMayores"]) > 0)
                 {
                     rndFinACM = generarRandom();
@@ -3548,39 +3501,40 @@ namespace Combinado
                     for (int i = 0; i < grdPersonasMayores.Rows.Count; i++)
                     {
                         DataGridViewRow fila = grdPersonasMayores.Rows[i];
-                        if (fila.Cells.Count > 0 && fila.Cells[0].Value != null && fila.Cells[0].Value.ToString() == "SiendoAt")
+                        if (fila.Cells[0].Value.ToString() == "SiendoAt")
                         {
                             indiceFinACM = i;
                             break;
                         }
                     }
 
-                    // Verificamos si se encontró un índice válido
-                    if (indiceFinACM >= 0 && indiceFinACM < grdPersonasMayores.Rows.Count)
-                    {
-                        // Elimino el objeto
-                        grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
+                    // Elimino el objeto
+                    grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
 
-                        // Recorro y cambio el estado de Encola a SiendoAtendido
-                        foreach (DataGridViewRow fila in grdPersonasMayores.Rows)
+                    // Recorro y cambio el estado de Encola a SiendoAtendido
+                    foreach (DataGridViewRow fila in grdPersonasMayores.Rows)
+                    {
+                        if (fila.Cells[0].Value.ToString() == "EnColaComidaMayores")
                         {
-                            if (fila.Cells.Count > 0 && fila.Cells[0].Value != null && fila.Cells[0].Value.ToString() == "EnColaComidaMayores")
-                            {
-                                fila.Cells[0].Value = "SiendoAt";
-                                break;
-                            }
+                            fila.Cells[0].Value = "SiendoAt";
+                            break;
                         }
                     }
                 }
                 else
                 {
-                    // Verificamos si el índice es válido antes de eliminar la fila
-                    if (indiceFinACM >= 0 && indiceFinACM < grdPersonasMayores.Rows.Count)
+                    for (int i = 0; i < grdPersonasMayores.Rows.Count; i++)
                     {
-                        grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
+                        DataGridViewRow fila = grdPersonasMayores.Rows[i];
+                        if (fila.Cells[0].Value.ToString() == "SiendoAt")
+                        {
+                            indiceFinACM = i;
+                            break;
+                        }
                     }
+                    ;
+                    grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
                 }
-
             }
 
 
