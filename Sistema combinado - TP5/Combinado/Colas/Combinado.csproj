@@ -111,5 +111,8 @@
   <ItemGroup>
     <None Include="Resources\X3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChecklistACM.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

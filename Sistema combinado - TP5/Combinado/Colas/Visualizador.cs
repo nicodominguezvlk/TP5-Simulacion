@@ -474,7 +474,7 @@ namespace Combinado
 
             tiempoDuracionDetencionLlegadas = null;
 
-            horaReanudacionLlegadas = null;
+            horaReanudacionLlegadas = 0;
 
 
             // Fin atención parking
@@ -482,11 +482,11 @@ namespace Combinado
 
             tiempoFinAP = null;
 
-            proximoFinAP1 = null;
-            proximoFinAP2 = null;
-            proximoFinAP3 = null;
-            proximoFinAP4 = null;
-            proximoFinAP5 = null;
+            proximoFinAP1 = 0;
+            proximoFinAP2 = 0;
+            proximoFinAP3 = 0;
+            proximoFinAP4 = 0;
+            proximoFinAP5 = 0;
 
 
             // Fin atención entrada
@@ -494,12 +494,12 @@ namespace Combinado
 
             tiempoFinAE = null;
 
-            proximoFinAE1 = null;
-            proximoFinAE2 = null;
-            proximoFinAE3 = null;
-            proximoFinAE4 = null;
-            proximoFinAE5 = null;
-            proximoFinAE6 = null;
+            proximoFinAE1 = 0;
+            proximoFinAE2 = 0;
+            proximoFinAE3 = 0;
+            proximoFinAE4 = 0;
+            proximoFinAE5 = 0;
+            proximoFinAE6 = 0;
 
             rndCantidadPersonas = null;
 
@@ -515,25 +515,25 @@ namespace Combinado
             // Fin atención control comida
             rndFinAC1 = null;
             tiempoFinAC1 = null;
-            proximoFinAC1 = null;
+            proximoFinAC1 = 0;
 
             rndFinAC2 = null;
             tiempoFinAC2 = null;
-            proximoFinAC2 = null;
+            proximoFinAC2 = 0;
 
             rndFinAC3 = null;
             tiempoFinAC3 = null;
-            proximoFinAC3 = null;
+            proximoFinAC3 = 0;
 
             rndFinAC4 = null;
             tiempoFinAC4 = null;
-            proximoFinAC4 = null;
+            proximoFinAC4 = 0;
 
 
             // Fin atención control comida mayores
             rndFinACM = null;
             tiempoFinACM = null;
-            proximoFinACM = null;
+            proximoFinACM = 0;
 
 
             // Reanudación servidor
@@ -541,7 +541,7 @@ namespace Combinado
 
             tiempoDuracionDetencionServidor = null;
 
-            horaReanudacionServidor = null;
+            horaReanudacionServidor = 0;
 
 
             // Bloqueo de llegadas
@@ -1158,7 +1158,7 @@ namespace Combinado
                 }
                 else
                 {
-                    throw new Exception("No se encontró el evento siguiente desde Ll Auto.");
+                    throw new Exception("No se encontró el evento siguiente desde LL Auto.");
                 }
             }
         }
@@ -3491,27 +3491,27 @@ namespace Combinado
             else
             {
                 int indiceFinACM = -1;
-                if (Convert.ToInt32(filaAnterior["colaComidaMayores"]) > 0)
+                if (colaComidaMayores > 0)
                 {
                     rndFinACM = generarRandom();
                     tiempoFinACM = generarTiempoExponencial(rndFinACM, mediaACM);
                     proximoFinACM = generarProximo(reloj, tiempoFinACM);
 
-                    // Recorremos la grid para encontrar el indice de la persona mayor
+                    // Recorremos la grid para encontrar el índice de la persona mayor
                     for (int i = 0; i < grdPersonasMayores.Rows.Count; i++)
                     {
                         DataGridViewRow fila = grdPersonasMayores.Rows[i];
                         if (fila.Cells[0].Value.ToString() == "SiendoAt")
                         {
                             indiceFinACM = i;
-                            break;
-                        }
-                    }
+                            break; 
+                        }// aber 
+                    } 
 
                     // Elimino el objeto
                     grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
 
-                    // Recorro y cambio el estado de Encola a SiendoAtendido
+                    // Recorro y cambio el estado de EnCola a SiendoAt
                     foreach (DataGridViewRow fila in grdPersonasMayores.Rows)
                     {
                         if (fila.Cells[0].Value.ToString() == "EnColaComidaMayores")
@@ -3532,7 +3532,6 @@ namespace Combinado
                             break;
                         }
                     }
-                    ;
                     grdPersonasMayores.Rows.RemoveAt(indiceFinACM);
                 }
             }
@@ -3594,11 +3593,11 @@ namespace Combinado
 
 
             // Control comida mayores
-            if (colaComidaMayores > 0 && estadoControlComidaMayores != "Infectado")
+            if (colaComidaMayores > 0)
             {
                 colaComidaMayores--;
             }
-            else if (estadoControlComidaMayores != "Infectado")
+            else
             {
                 estadoControlComidaMayores = "Libre";
             }
@@ -3879,7 +3878,7 @@ namespace Combinado
 
             tiempoDeDetencion = null;
 
-            horaDetencion = null;
+            horaDetencion = 0;
 
 
             // Llegada auto
@@ -3893,7 +3892,7 @@ namespace Combinado
             // Reanudación llegadas
             l = null;
             tiempoDuracionDetencionLlegadas = null;
-            horaReanudacionLlegadas = null;
+            horaReanudacionLlegadas = 0;
             if (tipoDetencion == "Llegadas")
             {
                 l = reloj;
@@ -3959,7 +3958,11 @@ namespace Combinado
             // Fin atención control comida mayores
             rndFinACM = null;
             tiempoFinACM = null;
-            proximoFinACM = aDecimal(filaAnterior["proximoFinACM"]); ;
+            proximoFinACM = aDecimal(filaAnterior["proximoFinACM"]);
+            if (tipoDetencion == "Servidor")
+            {
+                proximoFinACM = 0; // No habrá un próximo Fin ACM hasta que se reanude el servidor
+            }
 
 
             // Reanudación servidor
@@ -4037,11 +4040,13 @@ namespace Combinado
                     // Verificar si hay alguien siendo atendido y devolverlo a la cola
                     if (fila.Cells[0].Value.ToString() == "SiendoAt")
                     {
-                        proximoFinACM = 0;
                         fila.Cells[0].Value = "EnColaComidaMayores";
+                        colaComidaMayores++;
+                        break;
                     }
-                    colaComidaMayores++;
                 }
+
+                estadoControlComidaMayores = "Infectado";
             }
 
 
@@ -4318,7 +4323,7 @@ namespace Combinado
             // Reanudación Llegadas
             l = null;
             tiempoDuracionDetencionLlegadas = null;
-            horaReanudacionLlegadas = null;
+            horaReanudacionLlegadas = 0;
 
 
             // Fin atención parking
@@ -4383,7 +4388,7 @@ namespace Combinado
             // Reanudación servidor
             s = null;
             tiempoDuracionDetencionServidor = null;
-            horaReanudacionServidor = null;
+            horaReanudacionServidor = 0;
 
 
             // Bloqueo de llegadas
@@ -4404,7 +4409,7 @@ namespace Combinado
             colaPark5 = Convert.ToInt32(filaAnterior["colaPark5"]);
             estadoCajaPark5 = filaAnterior["estadoCajaPark5"].ToString();
 
-            // Acá va a haber que repartir a todos los autos trabados por el POLO OBRERO entre todas las cajas y colas
+            // Se reparten todos los autos que estaban bloqueados entre todas las cajas y colas
             int i = 0;
             while (colaBloqueoLlegadas > 0)
             {
@@ -4494,7 +4499,7 @@ namespace Combinado
                     }
                     colaBloqueoLlegadas--;
                 }
-                else // Si todas las Cajas park están ocupadas, entrar a la cola más chica
+                else // Si todas las Caja park están ocupadas, entrar a la cola más chica
                 {
                     int? colaMasChica = obtenerColaMenorParking(colaPark1, colaPark2, colaPark3, colaPark4, colaPark5);
 
@@ -4710,7 +4715,7 @@ namespace Combinado
                 }
                 else
                 {
-                    throw new Exception("No se encontró el evento siguiente desde Detención.");
+                    throw new Exception("No se encontró el evento siguiente desde Reanudación Llegadas.");
                 }
             }
         }
@@ -4881,7 +4886,7 @@ namespace Combinado
 
             tiempoDuracionDetencionLlegadas = null;
 
-            horaReanudacionLlegadas = null;
+            horaReanudacionLlegadas = 0;
 
 
             // Fin atención parking
@@ -4940,7 +4945,7 @@ namespace Combinado
             // Fin atención control comida mayores
             rndFinACM = null;
             tiempoFinACM = null;
-            proximoFinACM = null;
+            proximoFinACM = 0;
 
             if (Convert.ToInt32(filaAnterior["colaComidaMayores"]) > 0)
             {
@@ -4951,6 +4956,12 @@ namespace Combinado
                 // Recorro y cambio el estado de EnCola a SiendoAt
                 foreach (DataGridViewRow fila in grdPersonasMayores.Rows)
                 {
+                    // Chequeo de integridad
+                    if (fila.Cells[0].Value.ToString() == "SiendoAt")
+                    {
+                        throw new Exception("Hay un mayor SiendoAt, pero el servidor estaba infectado");
+                    }
+
                     if (fila.Cells[0].Value.ToString() == "EnColaComidaMayores")
                     {
                         fila.Cells[0].Value = "SiendoAt";
@@ -4963,7 +4974,7 @@ namespace Combinado
             // Reanudación servidor
             s = null;
             tiempoDuracionDetencionServidor = null;
-            horaReanudacionServidor = null;
+            horaReanudacionServidor = 0;
 
 
             // Bloqueo de llegadas
@@ -5022,6 +5033,15 @@ namespace Combinado
             else
             {
                 estadoControlComidaMayores = "Libre";
+                
+                // Chequeo de integridad de temporales
+                foreach (DataGridViewRow fila in grdPersonasMayores.Rows)
+                {
+                    if (fila.Cells[0].Value.ToString() == "SiendoAt")
+                    {
+                        throw new Exception("Hay un mayor SiendoAt, pero el servidor estaba infectado");
+                    }
+                }
             }
 
 
@@ -5129,7 +5149,7 @@ namespace Combinado
                 }
                 else
                 {
-                    throw new Exception("No se encontró el evento siguiente desde Detención.");
+                    throw new Exception("No se encontró el evento siguiente desde Reanudación Servidor.");
                 }
             }
 

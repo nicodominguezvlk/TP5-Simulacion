@@ -168,7 +168,7 @@
             this.txtCantSimulaciones.Name = "txtCantSimulaciones";
             this.txtCantSimulaciones.Size = new System.Drawing.Size(167, 34);
             this.txtCantSimulaciones.TabIndex = 16;
-            this.txtCantSimulaciones.Text = "1000";
+            this.txtCantSimulaciones.Text = "500";
             this.txtCantSimulaciones.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtN_KeyPress);
             // 
             // txtMediaControlComidaMayores

@@ -1,0 +1,48 @@
+﻿
+Situaciones donde entra un mayor a ACM
+
+En finAtencionEntrada(), si se crean personas mayores y el servidor está libre:
+- Se genera un proximoFinACM
+- Se agrega un mayor SiendoAt
+- No se decrementa la colaComidaMayores
+- No se elimina un mayor en la grilla de temporales
+
+En finAtencionComidaMayores(), si hay mayores en la colaComidaMayores: DELFI CHEQUEA
++ Se genera un proximoFinACM
++- Se elimina el mayor que estaba SiendoAt -- LA LOGICA ESTA PUESTA, PERO ES LO QUE NO ANDA
++ Se cambia un mayor de EnColaMayores a SiendoAt
++ Se decrementa la colaComidaMayores -- SI ESTÁ PERO EN UN LUGAR RARO A CHEUQEAR
+
+En reanudacionServidor(), si hay mayores en la colaComidaMayores: NICO CHEQUEA
++ Se genera un proximoFinACM
++ No hay mayores SiendoAt
++ Se cambia un mayor de EnColaMayores a SiendoAt
++ Se decrementa la colaComidaMayores
+
+
+
+Situaciones vinculadas
+
+En detencion(), si el tipoDetencion es "Servidor": NICO CHEQUEA
++ Se incrementa la colaComidaMayores
++ Se elimina el proximoFinACM
++ Se cambia el mayor que está SiendoAt a EnColaMayores
++ Se cambia el estado del servidor a "Infectado"
+
+
+
+Situaciones secundarias
+
+En finAtencionEntrada(), si el grupo no contiene mayores:
+- No se incrementa colaComidaMayores
+- No se modifican mayores temporales
+
+En finAtencionComidaMayores(), si no hay mayores en la colaComidaMayores:
+- Se cambia el estado del servidor a "Libre"
+- No se decrementa la cola
+- Se elimina el mayor SiendoAt
+
+En reanudacionServidor(), si no hay mayores en la colaComidaMayores: NICO CHEQUEA
++ Cambia el estado del servidor a "Libre"
++ No se decrementa la cola
++ No hay mayores SiendoAt

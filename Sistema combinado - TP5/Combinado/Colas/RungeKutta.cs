@@ -108,7 +108,7 @@ namespace Combinado
             filaActual["L_reanudLleg"] = L;
             //-(L/(0.1+0,8*t^2))-L
             filaActual["K1_reanudLleg"] = -(L / ((decimal)0.1 +(decimal)0.8 *((decimal)Math.Pow((double)t,(double)2))))- L;
-            filaActual["K2_reanudLleg"] = -((L + (h/2)* Convert.ToDecimal(filaActual["K1_reanudLleg"])) / ((decimal)0.1 +(decimal)0.8 * ((decimal)Math.Pow((double)(t+(h/2)), (double)2)))) - (L + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudLleg"]));
+            filaActual["K2_reanudLleg"] = -((L + (h / 2)* Convert.ToDecimal(filaActual["K1_reanudLleg"])) / ((decimal)0.1 +(decimal)0.8 * ((decimal)Math.Pow((double)(t+(h/2)), (double)2)))) - (L + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudLleg"]));
             filaActual["K3_reanudLleg"] = -((L + (h / 2) * Convert.ToDecimal(filaActual["K2_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow((double)(t + (h / 2)), (double)2)))) - (L + (h / 2) * Convert.ToDecimal(filaActual["K2_reanudLleg"]));
             filaActual["K4_reanudLleg"] = -((L + h * Convert.ToDecimal(filaActual["K3_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow((double)(t + h), (double)2)))) - (L + h * Convert.ToDecimal(filaActual["K3_reanudLleg"]));
             filaActual["tdeimas1_reanudLleg"] = t + h;
@@ -128,7 +128,7 @@ namespace Combinado
                 filaActual["K2_reanudLleg"] = -(((Convert.ToDecimal(filaActual["L_reanudLleg"])) + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow((double)(Convert.ToDecimal(filaActual["t_reanudLleg"]) + (h / 2)), (double)2)))) - ((Convert.ToDecimal(filaActual["L_reanudLleg"])) + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudLleg"]));
                 filaActual["K3_reanudLleg"] = -(((Convert.ToDecimal(filaActual["L_reanudLleg"])) + (h / 2) * Convert.ToDecimal(filaActual["K2_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow((double)(Convert.ToDecimal(filaActual["t_reanudLleg"]) + (h / 2)), (double)2)))) - ((Convert.ToDecimal(filaActual["L_reanudLleg"])) + (h / 2) * Convert.ToDecimal(filaActual["K2_reanudLleg"]));
                 filaActual["K4_reanudLleg"] = -(((Convert.ToDecimal(filaActual["L_reanudLleg"])) + h * Convert.ToDecimal(filaActual["K3_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow((double)(Convert.ToDecimal(filaActual["t_reanudLleg"]) + h), (double)2)))) - ((Convert.ToDecimal(filaActual["L_reanudLleg"])) + h * Convert.ToDecimal(filaActual["K3_reanudLleg"]));
-                filaActual["tdeimas1_reanudLleg"] = (Convert.ToDecimal(filaAnterior["t_reanudLleg"])) + h;
+                filaActual["tdeimas1_reanudLleg"] = (Convert.ToDecimal(filaActual["t_reanudLleg"])) + h;
                 filaActual["Ldeimas1_reanudLleg"] = Convert.ToDecimal(filaActual["L_reanudLleg"]) + (h / 6) * (Convert.ToDecimal(filaActual["K1_reanudLleg"]) + 2 * Convert.ToDecimal(filaActual["K2_reanudLleg"]) + 2 * Convert.ToDecimal(filaActual["K3_reanudLleg"]) + Convert.ToDecimal(filaActual["K4_reanudLleg"]));
                 filaActual["LmenosLmenos1_reanudLleg"] = Math.Abs(Convert.ToDecimal(filaActual["L_reanudLleg"]) - Convert.ToDecimal(filaAnterior["L_reanudLleg"]));
 
