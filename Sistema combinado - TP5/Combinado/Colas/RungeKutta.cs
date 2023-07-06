@@ -66,6 +66,11 @@ namespace Combinado
                 {
                     break;
                 }
+
+                if (i == 999999)
+                {
+                    throw new Exception("Este ciclo nunca corta");
+                }
             }
 
             // Retornos
@@ -116,8 +121,8 @@ namespace Combinado
                 dt.Rows.Add();
                 filaAnterior = filaActual;
                 filaActual = dt.Rows[i];
-                filaActual["t_reanudLleg"] = filaAnterior["t_reanudLleg"];
-                filaActual["L_reanudLleg"] = filaAnterior["L_reanudLleg"];
+                filaActual["t_reanudLleg"] = filaAnterior["tdeimas1_reanudLleg"];
+                filaActual["L_reanudLleg"] = filaAnterior["Ldeimas1_reanudLleg"];
                 //-(L/(0,8*t^2))-L
                 filaActual["K1_reanudLleg"] = -((Convert.ToDecimal(filaActual["L_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow(Convert.ToDouble(filaActual["t_reanudLleg"]), (double)2 )))) - (Convert.ToDecimal(filaActual["L_reanudLleg"]));
                 filaActual["K2_reanudLleg"] = -(((Convert.ToDecimal(filaActual["L_reanudLleg"])) + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudLleg"])) / ((decimal)0.1 + (decimal)0.8 * ((decimal)Math.Pow((double)(Convert.ToDecimal(filaActual["t_reanudLleg"]) + (h / 2)), (double)2)))) - ((Convert.ToDecimal(filaActual["L_reanudLleg"])) + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudLleg"]));
@@ -130,6 +135,11 @@ namespace Combinado
                 if (Convert.ToDecimal(filaActual["LmenosLmenos1_reanudLleg"]) < 1)
                 {
                     break;
+                }
+
+                if (i == 999999)
+                {
+                    throw new Exception("Este ciclo nunca corta");
                 }
             }
 
@@ -179,8 +189,8 @@ namespace Combinado
                 dt.Rows.Add();
                 filaAnterior = filaActual;
                 filaActual = dt.Rows[i];
-                filaActual["t_reanudServ"] = filaAnterior["t_reanudServ"];
-                filaActual["S_reanudServ"] = filaAnterior["S_reanudServ"];
+                filaActual["t_reanudServ"] = filaAnterior["tdeimas1_reanudServ"];
+                filaActual["S_reanudServ"] = filaAnterior["Sdeimas1_reanudServ"];
                 //(0.2 * S) + 3 - t
                 filaActual["K1_reanudServ"] = ((decimal)0.2 * (Convert.ToDecimal(filaActual["S_reanudServ"]))) + 3 - Convert.ToDecimal(filaActual["t_reanudServ"]);
                 filaActual["K2_reanudServ"] = ((decimal)0.2 * ((Convert.ToDecimal(filaActual["S_reanudServ"])) + (h / 2) * Convert.ToDecimal(filaActual["K1_reanudServ"]))) + 3 - (Convert.ToDecimal(filaActual["t_reanudServ"]) + (h / 2));
@@ -192,6 +202,11 @@ namespace Combinado
                 if(Convert.ToDecimal(filaActual["S_reanudServ"]) > freno)
                 {
                     break;
+                }
+
+                if (i == 999999)
+                {
+                    throw new Exception("Este ciclo nunca corta");
                 }
             }
 
