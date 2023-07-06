@@ -1092,11 +1092,10 @@ namespace Combinado
             dt.Rows.Remove(filaAnterior);
 
             // Agregar la nueva fila
-            dt.Rows.Add(evento, reloj, rndTipoDetencion, tipoDetencion, beta, tiempoDeDetencion, horaDetencion, rndLlegada, tiempoLlegada, proximaLlegada, l, tiempoDuracionDetencionLlegadas, horaReanudacionLlegadas,
-                s, tiempoDuracionDetencionServidor, horaReanudacionServidor, ingresoBloqueado, colaBloqueoLlegadas, rndFinAP, tiempoFinAP, proximoFinAP1, proximoFinAP2, proximoFinAP3, proximoFinAP4, proximoFinAP5,
+            dt.Rows.Add(evento, reloj, rndTipoDetencion, tipoDetencion, beta, tiempoDeDetencion, horaDetencion, rndLlegada, tiempoLlegada, proximaLlegada, l, tiempoDuracionDetencionLlegadas, horaReanudacionLlegadas, rndFinAP, tiempoFinAP, proximoFinAP1, proximoFinAP2, proximoFinAP3, proximoFinAP4, proximoFinAP5,
                 rndFinAE, tiempoFinAE, proximoFinAE1, proximoFinAE2, proximoFinAE3, proximoFinAE4, proximoFinAE5, proximoFinAE6, rndCantidadPersonas, cantidadPersonas, rndCantidadPersonasMayores,
                 cantidadPersonasMayores, cantidadPersonasNoMayores, rndFinAC1, tiempoFinAC1, proximoFinAC1, rndFinAC2, tiempoFinAC2, proximoFinAC2, rndFinAC3, tiempoFinAC3, proximoFinAC3,
-                rndFinAC4, tiempoFinAC4, proximoFinAC4, rndFinACM, tiempoFinACM, proximoFinACM, colaPark1, estadoCajaPark1, colaPark2, estadoCajaPark2, colaPark3, estadoCajaPark3, colaPark4, estadoCajaPark4,
+                rndFinAC4, tiempoFinAC4, proximoFinAC4, rndFinACM, tiempoFinACM, proximoFinACM, s, tiempoDuracionDetencionServidor, horaReanudacionServidor, ingresoBloqueado, colaBloqueoLlegadas, colaPark1, estadoCajaPark1, colaPark2, estadoCajaPark2, colaPark3, estadoCajaPark3, colaPark4, estadoCajaPark4,
                 colaPark5, estadoCajaPark5, colaEntrada1y2, estadoCajaEntrada1, estadoCajaEntrada2, colaEntrada3y4, estadoCajaEntrada3, estadoCajaEntrada4, colaEntrada5y6, estadoCajaEntrada5, estadoCajaEntrada6,
                 colaComida1, estadoControlComida1, colaComida2, estadoControlComida2, colaComida3, estadoControlComida3, colaComida4, estadoControlComida4, colaComidaMayores, estadoControlComidaMayores,
                 metrosPromedioNecesariosParaAparcamiento, acumuladorTiempoColaParking, cantidadPromedioAutosEnColaPark, contadorGruposCajaEntrada, acumuladorTiempoColaEntrada, tiempoPromedioEnColaEntrada,
@@ -1108,11 +1107,10 @@ namespace Combinado
             // Si la simulación está dentro de las que quiere visualizar, agregarla a la grilla
             if ((numeroSimulacionActual >= verDesdeSimulacion && numeroSimulacionActual < verHastaSimulacion) || numeroSimulacionActual == cantidadDeSimulaciones)
             {
-                grdSimulacion.Rows.Add(evento, reloj, rndTipoDetencion, tipoDetencion, beta, tiempoDeDetencion, horaDetencion, rndLlegada, tiempoLlegada, proximaLlegada, l, tiempoDuracionDetencionLlegadas, horaReanudacionLlegadas,
-                s, tiempoDuracionDetencionServidor, horaReanudacionServidor, ingresoBloqueado, colaBloqueoLlegadas, rndFinAP, tiempoFinAP, proximoFinAP1, proximoFinAP2, proximoFinAP3, proximoFinAP4, proximoFinAP5,
+                grdSimulacion.Rows.Add(evento, reloj, rndTipoDetencion, tipoDetencion, beta, tiempoDeDetencion, horaDetencion, rndLlegada, tiempoLlegada, proximaLlegada, l, tiempoDuracionDetencionLlegadas, horaReanudacionLlegadas, rndFinAP, tiempoFinAP, proximoFinAP1, proximoFinAP2, proximoFinAP3, proximoFinAP4, proximoFinAP5,
                 rndFinAE, tiempoFinAE, proximoFinAE1, proximoFinAE2, proximoFinAE3, proximoFinAE4, proximoFinAE5, proximoFinAE6, rndCantidadPersonas, cantidadPersonas, rndCantidadPersonasMayores,
                 cantidadPersonasMayores, cantidadPersonasNoMayores, rndFinAC1, tiempoFinAC1, proximoFinAC1, rndFinAC2, tiempoFinAC2, proximoFinAC2, rndFinAC3, tiempoFinAC3, proximoFinAC3,
-                rndFinAC4, tiempoFinAC4, proximoFinAC4, rndFinACM, tiempoFinACM, proximoFinACM, colaPark1, estadoCajaPark1, colaPark2, estadoCajaPark2, colaPark3, estadoCajaPark3, colaPark4, estadoCajaPark4,
+                rndFinAC4, tiempoFinAC4, proximoFinAC4, rndFinACM, tiempoFinACM, proximoFinACM, s, tiempoDuracionDetencionServidor, horaReanudacionServidor, ingresoBloqueado, colaBloqueoLlegadas, colaPark1, estadoCajaPark1, colaPark2, estadoCajaPark2, colaPark3, estadoCajaPark3, colaPark4, estadoCajaPark4,
                 colaPark5, estadoCajaPark5, colaEntrada1y2, estadoCajaEntrada1, estadoCajaEntrada2, colaEntrada3y4, estadoCajaEntrada3, estadoCajaEntrada4, colaEntrada5y6, estadoCajaEntrada5, estadoCajaEntrada6,
                 colaComida1, estadoControlComida1, colaComida2, estadoControlComida2, colaComida3, estadoControlComida3, colaComida4, estadoControlComida4, colaComidaMayores, estadoControlComidaMayores,
                 metrosPromedioNecesariosParaAparcamiento, acumuladorTiempoColaParking, cantidadPromedioAutosEnColaPark, contadorGruposCajaEntrada, acumuladorTiempoColaEntrada, tiempoPromedioEnColaEntrada,
@@ -2534,7 +2532,7 @@ namespace Combinado
             // Bloqueo de llegadas
             ingresoBloqueado = filaAnterior["ingresoBloqueado"].ToString();
 
-            colaBloqueoLlegadas = (int)filaAnterior["colaBloqueoLlegadas"];
+            colaBloqueoLlegadas = Convert.ToInt32(filaAnterior["colaBloqueoLlegadas"]);
             
 
             // Caja park
@@ -2883,7 +2881,7 @@ namespace Combinado
             proximoFinAC4 = aDecimal(filaAnterior["proximoFinAC4"]);
             
             int finComida = 0;
-            int indiceFinAC = 0;
+            int indiceFinAC = -1;
 
             if (proximoFinAC1 == reloj)
             {
@@ -3117,7 +3115,7 @@ namespace Combinado
             // Bloqueo de llegadas
             ingresoBloqueado = filaAnterior["ingresoBloqueado"].ToString();
 
-            colaBloqueoLlegadas = (int)(filaAnterior["colaBloqueoLlegadas"]);
+            colaBloqueoLlegadas = Convert.ToInt32(filaAnterior["colaBloqueoLlegadas"]);
 
 
             // Caja park
@@ -3475,7 +3473,6 @@ namespace Combinado
             rndFinACM = null;
             tiempoFinACM = null;
             proximoFinACM = null;
-            int indiceFinACM = -1;
             colaComidaMayores = Convert.ToInt32(filaAnterior["colaComidaMayores"]);
             estadoControlComidaMayores = Convert.ToString(filaAnterior["estadoControlComidaMayores"]);
 
@@ -3498,6 +3495,7 @@ namespace Combinado
             }
             else
             {
+                int indiceFinACM = -1;
                 if (Convert.ToInt32(filaAnterior["colaComidaMayores"]) > 0)
                 {
                     rndFinACM = generarRandom();
@@ -4156,7 +4154,7 @@ namespace Combinado
                 }
                 else
                 {
-                    throw new Exception("No se encontró el evento siguiente desde Detención.");
+                    throw new Exception("No se encontró el evento siguiente desde Detención");
                 }
             }
         }
