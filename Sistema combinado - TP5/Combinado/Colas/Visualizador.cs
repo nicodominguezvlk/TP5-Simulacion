@@ -161,7 +161,7 @@ namespace Combinado
             { eventoProximo = "LL Auto"; }
 
             else if (eventoMin == horaReanudacionLlegadas)
-            { eventoProximo = "Reanudación Llegadas"; }
+            { eventoProximo = "R Llegadas"; }
 
             else if (eventoMin == proximoFinAP1 || eventoMin == proximoFinAP2 || eventoMin == proximoFinAP3 || eventoMin == proximoFinAP4 || eventoMin == proximoFinAP5)
             { eventoProximo = "Fin AP"; }
@@ -176,7 +176,7 @@ namespace Combinado
             { eventoProximo = "Fin ACM"; }
 
             else if (eventoMin == horaReanudacionServidor)
-            { eventoProximo = "Reanudación Servidor"; }
+            { eventoProximo = "R Servidor"; }
 
             else { throw new Exception("El próximo evento no está incluído entre las condiciones."); }
 
@@ -673,11 +673,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -1148,11 +1148,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -1860,11 +1860,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -2645,11 +2645,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -3249,11 +3249,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -3721,11 +3721,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -4144,11 +4144,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -4277,7 +4277,7 @@ namespace Combinado
 
 
             // Evento
-            evento = "Reanudación Llegadas";
+            evento = "R Llegadas";
 
 
             // Reloj
@@ -4705,11 +4705,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }
@@ -4838,7 +4838,7 @@ namespace Combinado
 
 
             // Evento
-            evento = "Reanudación Servidor";
+            evento = "R Servidor";
 
 
             // Reloj
@@ -5139,11 +5139,11 @@ namespace Combinado
                 {
                     detencion(filaActual);
                 }
-                else if (proxEvento == "Reanudación Llegadas")
+                else if (proxEvento == "R Llegadas")
                 {
                     reanudacionLlegadas(filaActual);
                 }
-                else if (proxEvento == "Reanudación Servidor")
+                else if (proxEvento == "R Servidor")
                 {
                     reanudacionServidor(filaActual);
                 }

@@ -31,6 +31,13 @@ namespace Combinado
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle96 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle97 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle98 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle99 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle100 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle101 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle102 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -38,6 +45,93 @@ namespace Combinado
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle86 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle89 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle91 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle92 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle93 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle94 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle95 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlTitulo = new System.Windows.Forms.Panel();
             this.picArrow = new System.Windows.Forms.PictureBox();
             this.picX = new System.Windows.Forms.PictureBox();
@@ -386,14 +480,14 @@ namespace Combinado
             this.tiempoEnConseguirEntrada,
             this.cantidadPromedioGenteEnColaEntrada,
             this.tiempoEntradaDespuesDeEstacionar});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdSimulacion.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle96.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle96.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle96.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle96.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle96.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdSimulacion.DefaultCellStyle = dataGridViewCellStyle96;
             this.grdSimulacion.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdSimulacion.Location = new System.Drawing.Point(0, 0);
             this.grdSimulacion.Name = "grdSimulacion";
@@ -611,14 +705,14 @@ namespace Combinado
             this.grdRKDetencion.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdRKDetencion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.grdRKDetencion.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdRKDetencion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle97.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle97.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle97.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle97.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle97.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdRKDetencion.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle97;
             this.grdRKDetencion.ColumnHeadersHeight = 30;
             this.grdRKDetencion.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.t_detencion,
@@ -629,14 +723,14 @@ namespace Combinado
             this.K4_detencion,
             this.tdeimas1_detencion,
             this.Adeimas1_detencion});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdRKDetencion.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle98.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle98.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle98.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle98.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle98.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdRKDetencion.DefaultCellStyle = dataGridViewCellStyle98;
             this.grdRKDetencion.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdRKDetencion.Location = new System.Drawing.Point(0, -2);
             this.grdRKDetencion.Name = "grdRKDetencion";
@@ -726,14 +820,14 @@ namespace Combinado
             this.grdRKReanudacionLlegadas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdRKReanudacionLlegadas.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.grdRKReanudacionLlegadas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdRKReanudacionLlegadas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle99.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle99.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle99.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle99.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle99.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle99.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdRKReanudacionLlegadas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle99;
             this.grdRKReanudacionLlegadas.ColumnHeadersHeight = 30;
             this.grdRKReanudacionLlegadas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.t_reanudLleg,
@@ -745,14 +839,14 @@ namespace Combinado
             this.tdeimas1_reanudLleg,
             this.Ldeimas1_reanudLleg,
             this.LmenosLmenos1_reanudLleg});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdRKReanudacionLlegadas.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle100.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle100.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle100.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle100.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdRKReanudacionLlegadas.DefaultCellStyle = dataGridViewCellStyle100;
             this.grdRKReanudacionLlegadas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdRKReanudacionLlegadas.Location = new System.Drawing.Point(0, -2);
             this.grdRKReanudacionLlegadas.Name = "grdRKReanudacionLlegadas";
@@ -850,14 +944,14 @@ namespace Combinado
             this.grdRKReanudacionServidor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdRKReanudacionServidor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.grdRKReanudacionServidor.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdRKReanudacionServidor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle101.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle101.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle101.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle101.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle101.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdRKReanudacionServidor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle101;
             this.grdRKReanudacionServidor.ColumnHeadersHeight = 30;
             this.grdRKReanudacionServidor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.t_reanudServ,
@@ -868,14 +962,14 @@ namespace Combinado
             this.K4_reanudServ,
             this.tdeimas1_reanudServ,
             this.Sdeimas1_reanudServ});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdRKReanudacionServidor.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle102.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle102.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle102.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle102.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdRKReanudacionServidor.DefaultCellStyle = dataGridViewCellStyle102;
             this.grdRKReanudacionServidor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.grdRKReanudacionServidor.Location = new System.Drawing.Point(0, -2);
             this.grdRKReanudacionServidor.Name = "grdRKReanudacionServidor";
@@ -951,6 +1045,8 @@ namespace Combinado
             // evento
             // 
             this.evento.DataPropertyName = "evento";
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.evento.DefaultCellStyle = dataGridViewCellStyle2;
             this.evento.HeaderText = "Evento";
             this.evento.Name = "evento";
             this.evento.ReadOnly = true;
@@ -959,6 +1055,8 @@ namespace Combinado
             // 
             this.reloj.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.reloj.DataPropertyName = "reloj";
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.reloj.DefaultCellStyle = dataGridViewCellStyle3;
             this.reloj.HeaderText = "Reloj";
             this.reloj.MinimumWidth = 8;
             this.reloj.Name = "reloj";
@@ -968,6 +1066,8 @@ namespace Combinado
             // rndTipoDetencion
             // 
             this.rndTipoDetencion.DataPropertyName = "rndTipoDetencion";
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndTipoDetencion.DefaultCellStyle = dataGridViewCellStyle4;
             this.rndTipoDetencion.HeaderText = "RND Tipo Detención";
             this.rndTipoDetencion.Name = "rndTipoDetencion";
             this.rndTipoDetencion.ReadOnly = true;
@@ -975,6 +1075,8 @@ namespace Combinado
             // tipoDetencion
             // 
             this.tipoDetencion.DataPropertyName = "tipoDetencion";
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tipoDetencion.DefaultCellStyle = dataGridViewCellStyle5;
             this.tipoDetencion.HeaderText = "Tipo Detención";
             this.tipoDetencion.Name = "tipoDetencion";
             this.tipoDetencion.ReadOnly = true;
@@ -982,6 +1084,8 @@ namespace Combinado
             // beta
             // 
             this.beta.DataPropertyName = "beta";
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.beta.DefaultCellStyle = dataGridViewCellStyle6;
             this.beta.HeaderText = "Beta (B)";
             this.beta.Name = "beta";
             this.beta.ReadOnly = true;
@@ -989,6 +1093,8 @@ namespace Combinado
             // tiempoDeDetencion
             // 
             this.tiempoDeDetencion.DataPropertyName = "tiempoDeDetencion";
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoDeDetencion.DefaultCellStyle = dataGridViewCellStyle7;
             this.tiempoDeDetencion.HeaderText = "Tiempo de Detención";
             this.tiempoDeDetencion.Name = "tiempoDeDetencion";
             this.tiempoDeDetencion.ReadOnly = true;
@@ -996,6 +1102,8 @@ namespace Combinado
             // horaDetencion
             // 
             this.horaDetencion.DataPropertyName = "horaDetencion";
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.horaDetencion.DefaultCellStyle = dataGridViewCellStyle8;
             this.horaDetencion.HeaderText = "Hora Detención";
             this.horaDetencion.Name = "horaDetencion";
             this.horaDetencion.ReadOnly = true;
@@ -1004,6 +1112,8 @@ namespace Combinado
             // 
             this.rndLlegada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndLlegada.DataPropertyName = "rndLlegada";
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndLlegada.DefaultCellStyle = dataGridViewCellStyle9;
             this.rndLlegada.HeaderText = "RND Llegada Auto";
             this.rndLlegada.MinimumWidth = 6;
             this.rndLlegada.Name = "rndLlegada";
@@ -1012,6 +1122,8 @@ namespace Combinado
             // tiempoLlegada
             // 
             this.tiempoLlegada.DataPropertyName = "tiempoLlegada";
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoLlegada.DefaultCellStyle = dataGridViewCellStyle10;
             this.tiempoLlegada.HeaderText = "Tiempo Llegada Auto";
             this.tiempoLlegada.MinimumWidth = 6;
             this.tiempoLlegada.Name = "tiempoLlegada";
@@ -1021,6 +1133,8 @@ namespace Combinado
             // 
             this.proximaLlegada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximaLlegada.DataPropertyName = "proximaLlegada";
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximaLlegada.DefaultCellStyle = dataGridViewCellStyle11;
             this.proximaLlegada.HeaderText = "Próxima Llegada Auto";
             this.proximaLlegada.MinimumWidth = 6;
             this.proximaLlegada.Name = "proximaLlegada";
@@ -1029,6 +1143,8 @@ namespace Combinado
             // l
             // 
             this.l.DataPropertyName = "l";
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.l.DefaultCellStyle = dataGridViewCellStyle12;
             this.l.HeaderText = "Parámetro L";
             this.l.Name = "l";
             this.l.ReadOnly = true;
@@ -1036,6 +1152,8 @@ namespace Combinado
             // tiempoDuracionDetencionLlegadas
             // 
             this.tiempoDuracionDetencionLlegadas.DataPropertyName = "tiempoDuracionDetencionLlegadas";
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoDuracionDetencionLlegadas.DefaultCellStyle = dataGridViewCellStyle13;
             this.tiempoDuracionDetencionLlegadas.HeaderText = "Duración de Detención Llegada";
             this.tiempoDuracionDetencionLlegadas.Name = "tiempoDuracionDetencionLlegadas";
             this.tiempoDuracionDetencionLlegadas.ReadOnly = true;
@@ -1043,6 +1161,8 @@ namespace Combinado
             // horaReanudacionLlegadas
             // 
             this.horaReanudacionLlegadas.DataPropertyName = "horaReanudacionLlegadas";
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.horaReanudacionLlegadas.DefaultCellStyle = dataGridViewCellStyle14;
             this.horaReanudacionLlegadas.HeaderText = "Hora Reanudación Llegadas";
             this.horaReanudacionLlegadas.Name = "horaReanudacionLlegadas";
             this.horaReanudacionLlegadas.ReadOnly = true;
@@ -1051,6 +1171,8 @@ namespace Combinado
             // 
             this.rndFinAtencionParking.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinAtencionParking.DataPropertyName = "rndFinAtencionParking";
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinAtencionParking.DefaultCellStyle = dataGridViewCellStyle15;
             this.rndFinAtencionParking.HeaderText = "RND Fin AP";
             this.rndFinAtencionParking.MinimumWidth = 6;
             this.rndFinAtencionParking.Name = "rndFinAtencionParking";
@@ -1061,6 +1183,8 @@ namespace Combinado
             // 
             this.tiempoFinAtencionParking.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinAtencionParking.DataPropertyName = "tiempoFinAtencionParking";
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinAtencionParking.DefaultCellStyle = dataGridViewCellStyle16;
             this.tiempoFinAtencionParking.HeaderText = "Tiempo Fin AP";
             this.tiempoFinAtencionParking.MinimumWidth = 6;
             this.tiempoFinAtencionParking.Name = "tiempoFinAtencionParking";
@@ -1070,6 +1194,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionParking1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking1.DataPropertyName = "proximoFinAtencionParking1";
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionParking1.DefaultCellStyle = dataGridViewCellStyle17;
             this.proximoFinAtencionParking1.HeaderText = "Prox. Fin AP1";
             this.proximoFinAtencionParking1.MinimumWidth = 6;
             this.proximoFinAtencionParking1.Name = "proximoFinAtencionParking1";
@@ -1079,6 +1205,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionParking2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking2.DataPropertyName = "proximoFinAtencionParking2";
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionParking2.DefaultCellStyle = dataGridViewCellStyle18;
             this.proximoFinAtencionParking2.HeaderText = "Prox. Fin AP2";
             this.proximoFinAtencionParking2.MinimumWidth = 6;
             this.proximoFinAtencionParking2.Name = "proximoFinAtencionParking2";
@@ -1088,6 +1216,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionParking3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking3.DataPropertyName = "proximoFinAtencionParking3";
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionParking3.DefaultCellStyle = dataGridViewCellStyle19;
             this.proximoFinAtencionParking3.HeaderText = "Prox. Fin AP3";
             this.proximoFinAtencionParking3.MinimumWidth = 6;
             this.proximoFinAtencionParking3.Name = "proximoFinAtencionParking3";
@@ -1097,6 +1227,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionParking4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking4.DataPropertyName = "proximoFinAtencionParking4";
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionParking4.DefaultCellStyle = dataGridViewCellStyle20;
             this.proximoFinAtencionParking4.HeaderText = "Prox. Fin AP4";
             this.proximoFinAtencionParking4.MinimumWidth = 6;
             this.proximoFinAtencionParking4.Name = "proximoFinAtencionParking4";
@@ -1106,6 +1238,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionParking5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionParking5.DataPropertyName = "proximoFinAtencionParking5";
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionParking5.DefaultCellStyle = dataGridViewCellStyle21;
             this.proximoFinAtencionParking5.HeaderText = "Prox. Fin AP5";
             this.proximoFinAtencionParking5.MinimumWidth = 6;
             this.proximoFinAtencionParking5.Name = "proximoFinAtencionParking5";
@@ -1115,6 +1249,8 @@ namespace Combinado
             // 
             this.rndFinAtencionEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinAtencionEntrada.DataPropertyName = "rndFinAtencionEntrada";
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinAtencionEntrada.DefaultCellStyle = dataGridViewCellStyle22;
             this.rndFinAtencionEntrada.HeaderText = "RND Fin AE";
             this.rndFinAtencionEntrada.MinimumWidth = 6;
             this.rndFinAtencionEntrada.Name = "rndFinAtencionEntrada";
@@ -1124,6 +1260,8 @@ namespace Combinado
             // 
             this.tiempoFinAtencionEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinAtencionEntrada.DataPropertyName = "tiempoFinAtencionEntrada";
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinAtencionEntrada.DefaultCellStyle = dataGridViewCellStyle23;
             this.tiempoFinAtencionEntrada.HeaderText = "Tiempo Fin AE";
             this.tiempoFinAtencionEntrada.MinimumWidth = 6;
             this.tiempoFinAtencionEntrada.Name = "tiempoFinAtencionEntrada";
@@ -1133,6 +1271,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionEntrada1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionEntrada1.DataPropertyName = "proximoFinAtencionEntrada1";
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionEntrada1.DefaultCellStyle = dataGridViewCellStyle24;
             this.proximoFinAtencionEntrada1.HeaderText = "Prox. Fin AE1";
             this.proximoFinAtencionEntrada1.MinimumWidth = 6;
             this.proximoFinAtencionEntrada1.Name = "proximoFinAtencionEntrada1";
@@ -1142,6 +1282,8 @@ namespace Combinado
             // 
             this.proximoFinAtencionEntrada2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinAtencionEntrada2.DataPropertyName = "proximoFinAtencionEntrada2";
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionEntrada2.DefaultCellStyle = dataGridViewCellStyle25;
             this.proximoFinAtencionEntrada2.HeaderText = "Prox. Fin AE2";
             this.proximoFinAtencionEntrada2.MinimumWidth = 6;
             this.proximoFinAtencionEntrada2.Name = "proximoFinAtencionEntrada2";
@@ -1150,6 +1292,8 @@ namespace Combinado
             // proximoFinAtencionEntrada3
             // 
             this.proximoFinAtencionEntrada3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionEntrada3.DefaultCellStyle = dataGridViewCellStyle26;
             this.proximoFinAtencionEntrada3.HeaderText = "Prox. Fin AE3";
             this.proximoFinAtencionEntrada3.MinimumWidth = 8;
             this.proximoFinAtencionEntrada3.Name = "proximoFinAtencionEntrada3";
@@ -1158,6 +1302,8 @@ namespace Combinado
             // proximoFinAtencionEntrada4
             // 
             this.proximoFinAtencionEntrada4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionEntrada4.DefaultCellStyle = dataGridViewCellStyle27;
             this.proximoFinAtencionEntrada4.HeaderText = "Prox. Fin AE4";
             this.proximoFinAtencionEntrada4.MinimumWidth = 8;
             this.proximoFinAtencionEntrada4.Name = "proximoFinAtencionEntrada4";
@@ -1166,6 +1312,8 @@ namespace Combinado
             // proximoFinAtencionEntrada5
             // 
             this.proximoFinAtencionEntrada5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionEntrada5.DefaultCellStyle = dataGridViewCellStyle28;
             this.proximoFinAtencionEntrada5.HeaderText = "Prox. Fin AE5";
             this.proximoFinAtencionEntrada5.MinimumWidth = 8;
             this.proximoFinAtencionEntrada5.Name = "proximoFinAtencionEntrada5";
@@ -1174,6 +1322,8 @@ namespace Combinado
             // proximoFinAtencionEntrada6
             // 
             this.proximoFinAtencionEntrada6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinAtencionEntrada6.DefaultCellStyle = dataGridViewCellStyle29;
             this.proximoFinAtencionEntrada6.HeaderText = "Prox. Fin AE6";
             this.proximoFinAtencionEntrada6.MinimumWidth = 8;
             this.proximoFinAtencionEntrada6.Name = "proximoFinAtencionEntrada6";
@@ -1183,6 +1333,8 @@ namespace Combinado
             // 
             this.rndCantidadPersonas.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndCantidadPersonas.DataPropertyName = "rndCantidadPersonas";
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndCantidadPersonas.DefaultCellStyle = dataGridViewCellStyle30;
             this.rndCantidadPersonas.HeaderText = "RND Cantidad Personas";
             this.rndCantidadPersonas.MinimumWidth = 8;
             this.rndCantidadPersonas.Name = "rndCantidadPersonas";
@@ -1192,6 +1344,8 @@ namespace Combinado
             // 
             this.cantidadPersonas.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.cantidadPersonas.DataPropertyName = "cantidadPersonas";
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.cantidadPersonas.DefaultCellStyle = dataGridViewCellStyle31;
             this.cantidadPersonas.HeaderText = "Cantidad Personas";
             this.cantidadPersonas.MinimumWidth = 8;
             this.cantidadPersonas.Name = "cantidadPersonas";
@@ -1201,6 +1355,8 @@ namespace Combinado
             // 
             this.rndCantidadMayores.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndCantidadMayores.DataPropertyName = "rndCantidadMayores";
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndCantidadMayores.DefaultCellStyle = dataGridViewCellStyle32;
             this.rndCantidadMayores.HeaderText = "RND Cantidad Mayores";
             this.rndCantidadMayores.MinimumWidth = 8;
             this.rndCantidadMayores.Name = "rndCantidadMayores";
@@ -1210,6 +1366,8 @@ namespace Combinado
             // 
             this.cantidadPersonasMayores.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.cantidadPersonasMayores.DataPropertyName = "cantidadPersonasMayores";
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.cantidadPersonasMayores.DefaultCellStyle = dataGridViewCellStyle33;
             this.cantidadPersonasMayores.HeaderText = "Cantidad Mayores";
             this.cantidadPersonasMayores.MinimumWidth = 8;
             this.cantidadPersonasMayores.Name = "cantidadPersonasMayores";
@@ -1218,6 +1376,8 @@ namespace Combinado
             // cantidadPersonasNoMayores
             // 
             this.cantidadPersonasNoMayores.DataPropertyName = "cantidadPersonasNoMayores";
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.cantidadPersonasNoMayores.DefaultCellStyle = dataGridViewCellStyle34;
             this.cantidadPersonasNoMayores.HeaderText = "Cantidad No Mayores";
             this.cantidadPersonasNoMayores.Name = "cantidadPersonasNoMayores";
             this.cantidadPersonasNoMayores.ReadOnly = true;
@@ -1226,6 +1386,8 @@ namespace Combinado
             // 
             this.rndFinCC1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinCC1.DataPropertyName = "rndFinCC1";
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinCC1.DefaultCellStyle = dataGridViewCellStyle35;
             this.rndFinCC1.HeaderText = "RND fin CC1";
             this.rndFinCC1.MinimumWidth = 8;
             this.rndFinCC1.Name = "rndFinCC1";
@@ -1235,6 +1397,8 @@ namespace Combinado
             // 
             this.tiempoFinCC1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinCC1.DataPropertyName = "tiempoFinCC1";
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinCC1.DefaultCellStyle = dataGridViewCellStyle36;
             this.tiempoFinCC1.HeaderText = "Tiempo fin CC1";
             this.tiempoFinCC1.MinimumWidth = 8;
             this.tiempoFinCC1.Name = "tiempoFinCC1";
@@ -1244,6 +1408,8 @@ namespace Combinado
             // 
             this.proximoFinCC1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCC1.DataPropertyName = "proximoFinCC1";
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinCC1.DefaultCellStyle = dataGridViewCellStyle37;
             this.proximoFinCC1.HeaderText = "Prox. Fin CC1";
             this.proximoFinCC1.MinimumWidth = 8;
             this.proximoFinCC1.Name = "proximoFinCC1";
@@ -1253,6 +1419,8 @@ namespace Combinado
             // 
             this.rndFinCC2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinCC2.DataPropertyName = "rndFinCC2";
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinCC2.DefaultCellStyle = dataGridViewCellStyle38;
             this.rndFinCC2.HeaderText = "RND fin CC2";
             this.rndFinCC2.MinimumWidth = 8;
             this.rndFinCC2.Name = "rndFinCC2";
@@ -1262,6 +1430,8 @@ namespace Combinado
             // 
             this.tiempoFinCC2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinCC2.DataPropertyName = "tiempoFinCC2";
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinCC2.DefaultCellStyle = dataGridViewCellStyle39;
             this.tiempoFinCC2.HeaderText = "Tiempo Fin CC2";
             this.tiempoFinCC2.MinimumWidth = 8;
             this.tiempoFinCC2.Name = "tiempoFinCC2";
@@ -1271,6 +1441,8 @@ namespace Combinado
             // 
             this.proximoFinCC2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCC2.DataPropertyName = "proximoFinCC2";
+            dataGridViewCellStyle40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinCC2.DefaultCellStyle = dataGridViewCellStyle40;
             this.proximoFinCC2.HeaderText = "Prox Fin CC2";
             this.proximoFinCC2.MinimumWidth = 8;
             this.proximoFinCC2.Name = "proximoFinCC2";
@@ -1280,6 +1452,8 @@ namespace Combinado
             // 
             this.rndFinCC3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinCC3.DataPropertyName = "rndFinCC3";
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinCC3.DefaultCellStyle = dataGridViewCellStyle41;
             this.rndFinCC3.HeaderText = "RND Fin CC3";
             this.rndFinCC3.MinimumWidth = 8;
             this.rndFinCC3.Name = "rndFinCC3";
@@ -1289,6 +1463,8 @@ namespace Combinado
             // 
             this.tiempoFinCC3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinCC3.DataPropertyName = "tiempoFinCC3";
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinCC3.DefaultCellStyle = dataGridViewCellStyle42;
             this.tiempoFinCC3.HeaderText = "Tiempo Fin CC3";
             this.tiempoFinCC3.MinimumWidth = 8;
             this.tiempoFinCC3.Name = "tiempoFinCC3";
@@ -1298,6 +1474,8 @@ namespace Combinado
             // 
             this.proximoFinCC3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCC3.DataPropertyName = "proximoFinCC3";
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinCC3.DefaultCellStyle = dataGridViewCellStyle43;
             this.proximoFinCC3.HeaderText = "Prox. Fin CC3";
             this.proximoFinCC3.MinimumWidth = 8;
             this.proximoFinCC3.Name = "proximoFinCC3";
@@ -1307,6 +1485,8 @@ namespace Combinado
             // 
             this.rndFinCC4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinCC4.DataPropertyName = "rndFinCC4";
+            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinCC4.DefaultCellStyle = dataGridViewCellStyle44;
             this.rndFinCC4.HeaderText = "RND Fin CC4";
             this.rndFinCC4.MinimumWidth = 8;
             this.rndFinCC4.Name = "rndFinCC4";
@@ -1316,6 +1496,8 @@ namespace Combinado
             // 
             this.tiempoFinCC4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinCC4.DataPropertyName = "tiempoFinCC4";
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinCC4.DefaultCellStyle = dataGridViewCellStyle45;
             this.tiempoFinCC4.HeaderText = "Tiempo Fin CC4";
             this.tiempoFinCC4.MinimumWidth = 8;
             this.tiempoFinCC4.Name = "tiempoFinCC4";
@@ -1325,6 +1507,8 @@ namespace Combinado
             // 
             this.proximoFinCC4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCC4.DataPropertyName = "proximoFinCC4";
+            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinCC4.DefaultCellStyle = dataGridViewCellStyle46;
             this.proximoFinCC4.HeaderText = "Prox. Fin CC4";
             this.proximoFinCC4.MinimumWidth = 8;
             this.proximoFinCC4.Name = "proximoFinCC4";
@@ -1334,6 +1518,8 @@ namespace Combinado
             // 
             this.rndFinCCM.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.rndFinCCM.DataPropertyName = "rndFinCCM";
+            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.rndFinCCM.DefaultCellStyle = dataGridViewCellStyle47;
             this.rndFinCCM.HeaderText = "RND Fin CCM";
             this.rndFinCCM.MinimumWidth = 8;
             this.rndFinCCM.Name = "rndFinCCM";
@@ -1343,6 +1529,8 @@ namespace Combinado
             // 
             this.tiempoFinCCM.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoFinCCM.DataPropertyName = "tiempoFinCCM";
+            dataGridViewCellStyle48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoFinCCM.DefaultCellStyle = dataGridViewCellStyle48;
             this.tiempoFinCCM.HeaderText = "Tiempo Fin CCM";
             this.tiempoFinCCM.MinimumWidth = 8;
             this.tiempoFinCCM.Name = "tiempoFinCCM";
@@ -1352,6 +1540,8 @@ namespace Combinado
             // 
             this.proximoFinCCM.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.proximoFinCCM.DataPropertyName = "proximoFinCCM";
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.proximoFinCCM.DefaultCellStyle = dataGridViewCellStyle49;
             this.proximoFinCCM.HeaderText = "Prox. Fin CCM";
             this.proximoFinCCM.MinimumWidth = 8;
             this.proximoFinCCM.Name = "proximoFinCCM";
@@ -1360,6 +1550,8 @@ namespace Combinado
             // s
             // 
             this.s.DataPropertyName = "s";
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.s.DefaultCellStyle = dataGridViewCellStyle50;
             this.s.HeaderText = "Parámetro S";
             this.s.Name = "s";
             this.s.ReadOnly = true;
@@ -1367,6 +1559,8 @@ namespace Combinado
             // tiempoDuracionDetencionServidor
             // 
             this.tiempoDuracionDetencionServidor.DataPropertyName = "tiempoDuracionDetencionServidor";
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoDuracionDetencionServidor.DefaultCellStyle = dataGridViewCellStyle51;
             this.tiempoDuracionDetencionServidor.HeaderText = "Duración Detención Servidor";
             this.tiempoDuracionDetencionServidor.Name = "tiempoDuracionDetencionServidor";
             this.tiempoDuracionDetencionServidor.ReadOnly = true;
@@ -1374,6 +1568,8 @@ namespace Combinado
             // horaReanudacionServidor
             // 
             this.horaReanudacionServidor.DataPropertyName = "horaReanudacionServidor";
+            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.horaReanudacionServidor.DefaultCellStyle = dataGridViewCellStyle52;
             this.horaReanudacionServidor.HeaderText = "Hora de Reanudación Servidor";
             this.horaReanudacionServidor.Name = "horaReanudacionServidor";
             this.horaReanudacionServidor.ReadOnly = true;
@@ -1381,6 +1577,8 @@ namespace Combinado
             // ingresoBloqueado
             // 
             this.ingresoBloqueado.DataPropertyName = "ingresoBloqueado";
+            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.ingresoBloqueado.DefaultCellStyle = dataGridViewCellStyle53;
             this.ingresoBloqueado.HeaderText = "Ingreso Bloqueado";
             this.ingresoBloqueado.Name = "ingresoBloqueado";
             this.ingresoBloqueado.ReadOnly = true;
@@ -1388,6 +1586,8 @@ namespace Combinado
             // colaBloqueoLlegadas
             // 
             this.colaBloqueoLlegadas.DataPropertyName = "colaBloqueoLlegadas";
+            dataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaBloqueoLlegadas.DefaultCellStyle = dataGridViewCellStyle54;
             this.colaBloqueoLlegadas.HeaderText = "Cola Bloqueo Llegadas";
             this.colaBloqueoLlegadas.Name = "colaBloqueoLlegadas";
             this.colaBloqueoLlegadas.ReadOnly = true;
@@ -1396,6 +1596,8 @@ namespace Combinado
             // 
             this.colaPark1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaPark1.DataPropertyName = "colaPark1";
+            dataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaPark1.DefaultCellStyle = dataGridViewCellStyle55;
             this.colaPark1.HeaderText = "ColaPark1";
             this.colaPark1.MinimumWidth = 8;
             this.colaPark1.Name = "colaPark1";
@@ -1405,6 +1607,8 @@ namespace Combinado
             // 
             this.estadoCajaPark1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaPark1.DataPropertyName = "estadoCajaPark1";
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaPark1.DefaultCellStyle = dataGridViewCellStyle56;
             this.estadoCajaPark1.HeaderText = "Estado CajaPark1";
             this.estadoCajaPark1.MinimumWidth = 8;
             this.estadoCajaPark1.Name = "estadoCajaPark1";
@@ -1414,6 +1618,8 @@ namespace Combinado
             // 
             this.colaPark2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaPark2.DataPropertyName = "colaPark2";
+            dataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaPark2.DefaultCellStyle = dataGridViewCellStyle57;
             this.colaPark2.HeaderText = "ColaPark2";
             this.colaPark2.MinimumWidth = 8;
             this.colaPark2.Name = "colaPark2";
@@ -1423,6 +1629,8 @@ namespace Combinado
             // 
             this.estadoCajaPark2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaPark2.DataPropertyName = "estadoCajaPark2";
+            dataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaPark2.DefaultCellStyle = dataGridViewCellStyle58;
             this.estadoCajaPark2.HeaderText = "Estado CajaPark2";
             this.estadoCajaPark2.MinimumWidth = 8;
             this.estadoCajaPark2.Name = "estadoCajaPark2";
@@ -1432,6 +1640,8 @@ namespace Combinado
             // 
             this.colaPark3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaPark3.DataPropertyName = "colaPark3";
+            dataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaPark3.DefaultCellStyle = dataGridViewCellStyle59;
             this.colaPark3.HeaderText = "ColaPark3";
             this.colaPark3.MinimumWidth = 8;
             this.colaPark3.Name = "colaPark3";
@@ -1441,6 +1651,8 @@ namespace Combinado
             // 
             this.estadoCajaPark3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaPark3.DataPropertyName = "estadoCajaPark3";
+            dataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaPark3.DefaultCellStyle = dataGridViewCellStyle60;
             this.estadoCajaPark3.HeaderText = "Estado CajaPark3";
             this.estadoCajaPark3.MinimumWidth = 8;
             this.estadoCajaPark3.Name = "estadoCajaPark3";
@@ -1450,6 +1662,8 @@ namespace Combinado
             // 
             this.colaPark4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaPark4.DataPropertyName = "colaPark4";
+            dataGridViewCellStyle61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaPark4.DefaultCellStyle = dataGridViewCellStyle61;
             this.colaPark4.HeaderText = "ColaPark4";
             this.colaPark4.MinimumWidth = 8;
             this.colaPark4.Name = "colaPark4";
@@ -1459,6 +1673,8 @@ namespace Combinado
             // 
             this.estadoCajaPark4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaPark4.DataPropertyName = "estadoCajaPark4";
+            dataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaPark4.DefaultCellStyle = dataGridViewCellStyle62;
             this.estadoCajaPark4.HeaderText = "Estado CajaPark4";
             this.estadoCajaPark4.MinimumWidth = 8;
             this.estadoCajaPark4.Name = "estadoCajaPark4";
@@ -1468,6 +1684,8 @@ namespace Combinado
             // 
             this.colaPark5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaPark5.DataPropertyName = "colaPark5";
+            dataGridViewCellStyle63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaPark5.DefaultCellStyle = dataGridViewCellStyle63;
             this.colaPark5.HeaderText = "ColaPark5";
             this.colaPark5.MinimumWidth = 8;
             this.colaPark5.Name = "colaPark5";
@@ -1477,6 +1695,8 @@ namespace Combinado
             // 
             this.estadoCajaPark5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaPark5.DataPropertyName = "estadoCajaPark5";
+            dataGridViewCellStyle64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaPark5.DefaultCellStyle = dataGridViewCellStyle64;
             this.estadoCajaPark5.HeaderText = "Estado CajaPark5";
             this.estadoCajaPark5.MinimumWidth = 8;
             this.estadoCajaPark5.Name = "estadoCajaPark5";
@@ -1486,6 +1706,8 @@ namespace Combinado
             // 
             this.colaEntrada1y2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaEntrada1y2.DataPropertyName = "colaEntrada1y2";
+            dataGridViewCellStyle65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaEntrada1y2.DefaultCellStyle = dataGridViewCellStyle65;
             this.colaEntrada1y2.HeaderText = "ColaEntrada1y2";
             this.colaEntrada1y2.MinimumWidth = 8;
             this.colaEntrada1y2.Name = "colaEntrada1y2";
@@ -1495,6 +1717,8 @@ namespace Combinado
             // 
             this.estadoCajaEntrada1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaEntrada1.DataPropertyName = "estadoCajaEntrada1";
+            dataGridViewCellStyle66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaEntrada1.DefaultCellStyle = dataGridViewCellStyle66;
             this.estadoCajaEntrada1.HeaderText = "Estado CajaEntrada1";
             this.estadoCajaEntrada1.MinimumWidth = 8;
             this.estadoCajaEntrada1.Name = "estadoCajaEntrada1";
@@ -1504,6 +1728,8 @@ namespace Combinado
             // 
             this.estadoCajaEntrada2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaEntrada2.DataPropertyName = "estadoCajaEntrada2";
+            dataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaEntrada2.DefaultCellStyle = dataGridViewCellStyle67;
             this.estadoCajaEntrada2.HeaderText = "Estado CajaEntrada2";
             this.estadoCajaEntrada2.MinimumWidth = 8;
             this.estadoCajaEntrada2.Name = "estadoCajaEntrada2";
@@ -1513,6 +1739,8 @@ namespace Combinado
             // 
             this.colaEntrada3y4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaEntrada3y4.DataPropertyName = "colaEntrada3y4";
+            dataGridViewCellStyle68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaEntrada3y4.DefaultCellStyle = dataGridViewCellStyle68;
             this.colaEntrada3y4.HeaderText = "Cola Entrada3y4";
             this.colaEntrada3y4.MinimumWidth = 8;
             this.colaEntrada3y4.Name = "colaEntrada3y4";
@@ -1521,6 +1749,8 @@ namespace Combinado
             // estadoCajaEntrada3
             // 
             this.estadoCajaEntrada3.DataPropertyName = "estadoCajaEntrada3";
+            dataGridViewCellStyle69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaEntrada3.DefaultCellStyle = dataGridViewCellStyle69;
             this.estadoCajaEntrada3.HeaderText = "Estado CajaEntrada3";
             this.estadoCajaEntrada3.MinimumWidth = 8;
             this.estadoCajaEntrada3.Name = "estadoCajaEntrada3";
@@ -1531,6 +1761,8 @@ namespace Combinado
             // 
             this.estadoCajaEntrada4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaEntrada4.DataPropertyName = "estadoCajaEntrada4";
+            dataGridViewCellStyle70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaEntrada4.DefaultCellStyle = dataGridViewCellStyle70;
             this.estadoCajaEntrada4.HeaderText = "Estado CajaEntrada4";
             this.estadoCajaEntrada4.MinimumWidth = 8;
             this.estadoCajaEntrada4.Name = "estadoCajaEntrada4";
@@ -1540,6 +1772,8 @@ namespace Combinado
             // 
             this.colaEntrada5y6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaEntrada5y6.DataPropertyName = "colaEntrada5y6";
+            dataGridViewCellStyle71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaEntrada5y6.DefaultCellStyle = dataGridViewCellStyle71;
             this.colaEntrada5y6.HeaderText = "Cola Entrada5y6";
             this.colaEntrada5y6.MinimumWidth = 8;
             this.colaEntrada5y6.Name = "colaEntrada5y6";
@@ -1549,6 +1783,8 @@ namespace Combinado
             // 
             this.estadoCajaEntrada5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaEntrada5.DataPropertyName = "estadoCajaEntrada5";
+            dataGridViewCellStyle72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaEntrada5.DefaultCellStyle = dataGridViewCellStyle72;
             this.estadoCajaEntrada5.HeaderText = "Estado CajaEntrada5";
             this.estadoCajaEntrada5.MinimumWidth = 8;
             this.estadoCajaEntrada5.Name = "estadoCajaEntrada5";
@@ -1558,6 +1794,8 @@ namespace Combinado
             // 
             this.estadoCajaEntrada6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoCajaEntrada6.DataPropertyName = "estadoCajaEntrada6";
+            dataGridViewCellStyle73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoCajaEntrada6.DefaultCellStyle = dataGridViewCellStyle73;
             this.estadoCajaEntrada6.HeaderText = "Estado CajaEntrada6";
             this.estadoCajaEntrada6.MinimumWidth = 8;
             this.estadoCajaEntrada6.Name = "estadoCajaEntrada6";
@@ -1567,6 +1805,8 @@ namespace Combinado
             // 
             this.colaComida1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaComida1.DataPropertyName = "colaComida1";
+            dataGridViewCellStyle74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaComida1.DefaultCellStyle = dataGridViewCellStyle74;
             this.colaComida1.HeaderText = "Cola Comida1";
             this.colaComida1.MinimumWidth = 8;
             this.colaComida1.Name = "colaComida1";
@@ -1576,6 +1816,8 @@ namespace Combinado
             // 
             this.estadoControlComida1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoControlComida1.DataPropertyName = "estadoControlComida1";
+            dataGridViewCellStyle75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoControlComida1.DefaultCellStyle = dataGridViewCellStyle75;
             this.estadoControlComida1.HeaderText = "Estado ControlComida1";
             this.estadoControlComida1.MinimumWidth = 8;
             this.estadoControlComida1.Name = "estadoControlComida1";
@@ -1584,6 +1826,8 @@ namespace Combinado
             // colaComida2
             // 
             this.colaComida2.DataPropertyName = "colaComida2";
+            dataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaComida2.DefaultCellStyle = dataGridViewCellStyle76;
             this.colaComida2.HeaderText = "Cola Comida2";
             this.colaComida2.MinimumWidth = 8;
             this.colaComida2.Name = "colaComida2";
@@ -1594,6 +1838,8 @@ namespace Combinado
             // 
             this.estadoControlComida2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoControlComida2.DataPropertyName = "estadoControlComida2";
+            dataGridViewCellStyle77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoControlComida2.DefaultCellStyle = dataGridViewCellStyle77;
             this.estadoControlComida2.HeaderText = "Estado ControlComida2";
             this.estadoControlComida2.MinimumWidth = 8;
             this.estadoControlComida2.Name = "estadoControlComida2";
@@ -1603,6 +1849,8 @@ namespace Combinado
             // 
             this.colaComida3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaComida3.DataPropertyName = "colaComida3";
+            dataGridViewCellStyle78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaComida3.DefaultCellStyle = dataGridViewCellStyle78;
             this.colaComida3.HeaderText = "Cola Comida3";
             this.colaComida3.MinimumWidth = 8;
             this.colaComida3.Name = "colaComida3";
@@ -1612,6 +1860,8 @@ namespace Combinado
             // 
             this.estadoControlComida3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoControlComida3.DataPropertyName = "estadoControlComida3";
+            dataGridViewCellStyle79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoControlComida3.DefaultCellStyle = dataGridViewCellStyle79;
             this.estadoControlComida3.HeaderText = "Estado ControlComida3";
             this.estadoControlComida3.MinimumWidth = 8;
             this.estadoControlComida3.Name = "estadoControlComida3";
@@ -1621,6 +1871,8 @@ namespace Combinado
             // 
             this.colaComida4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaComida4.DataPropertyName = "colaComida4";
+            dataGridViewCellStyle80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaComida4.DefaultCellStyle = dataGridViewCellStyle80;
             this.colaComida4.HeaderText = "Cola Comida4";
             this.colaComida4.MinimumWidth = 8;
             this.colaComida4.Name = "colaComida4";
@@ -1630,6 +1882,8 @@ namespace Combinado
             // 
             this.estadoControlComida4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoControlComida4.DataPropertyName = "estadoControlComida4";
+            dataGridViewCellStyle81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoControlComida4.DefaultCellStyle = dataGridViewCellStyle81;
             this.estadoControlComida4.HeaderText = "Estado ControlComida4";
             this.estadoControlComida4.MinimumWidth = 8;
             this.estadoControlComida4.Name = "estadoControlComida4";
@@ -1639,6 +1893,8 @@ namespace Combinado
             // 
             this.colaComidaMayores.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colaComidaMayores.DataPropertyName = "colaComidaMayores";
+            dataGridViewCellStyle82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.colaComidaMayores.DefaultCellStyle = dataGridViewCellStyle82;
             this.colaComidaMayores.HeaderText = "Cola ComidaMayores";
             this.colaComidaMayores.MinimumWidth = 8;
             this.colaComidaMayores.Name = "colaComidaMayores";
@@ -1648,6 +1904,8 @@ namespace Combinado
             // 
             this.estadoControlComidaMayores.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.estadoControlComidaMayores.DataPropertyName = "estadoControlComidaMayores";
+            dataGridViewCellStyle83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.estadoControlComidaMayores.DefaultCellStyle = dataGridViewCellStyle83;
             this.estadoControlComidaMayores.HeaderText = "Estado ControlComidaMayores";
             this.estadoControlComidaMayores.MinimumWidth = 8;
             this.estadoControlComidaMayores.Name = "estadoControlComidaMayores";
@@ -1657,6 +1915,8 @@ namespace Combinado
             // 
             this.metrosPromedioNecesariosParaAparcamiento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.metrosPromedioNecesariosParaAparcamiento.DataPropertyName = "metrosPromedioNecesariosParaAparcamiento";
+            dataGridViewCellStyle84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metrosPromedioNecesariosParaAparcamiento.DefaultCellStyle = dataGridViewCellStyle84;
             this.metrosPromedioNecesariosParaAparcamiento.HeaderText = "Metros prom para aparcamiento";
             this.metrosPromedioNecesariosParaAparcamiento.MinimumWidth = 8;
             this.metrosPromedioNecesariosParaAparcamiento.Name = "metrosPromedioNecesariosParaAparcamiento";
@@ -1665,6 +1925,8 @@ namespace Combinado
             // acumuladorTiempoColaParking
             // 
             this.acumuladorTiempoColaParking.DataPropertyName = "acumuladorTiempoColaParking";
+            dataGridViewCellStyle85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.acumuladorTiempoColaParking.DefaultCellStyle = dataGridViewCellStyle85;
             this.acumuladorTiempoColaParking.HeaderText = "AC Tiempo ColaParking";
             this.acumuladorTiempoColaParking.Name = "acumuladorTiempoColaParking";
             this.acumuladorTiempoColaParking.ReadOnly = true;
@@ -1673,6 +1935,8 @@ namespace Combinado
             // 
             this.cantidadPromedioAutosEnColaPark.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.cantidadPromedioAutosEnColaPark.DataPropertyName = "cantidadPromedioAutosEnColaPark";
+            dataGridViewCellStyle86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.cantidadPromedioAutosEnColaPark.DefaultCellStyle = dataGridViewCellStyle86;
             this.cantidadPromedioAutosEnColaPark.HeaderText = "Cant Prom Autos ColaPark";
             this.cantidadPromedioAutosEnColaPark.MinimumWidth = 8;
             this.cantidadPromedioAutosEnColaPark.Name = "cantidadPromedioAutosEnColaPark";
@@ -1682,6 +1946,8 @@ namespace Combinado
             // 
             this.contadorGruposCajaEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.contadorGruposCajaEntrada.DataPropertyName = "contadorGruposCajaEntrada";
+            dataGridViewCellStyle87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.contadorGruposCajaEntrada.DefaultCellStyle = dataGridViewCellStyle87;
             this.contadorGruposCajaEntrada.HeaderText = "Cont Grupos CajaEntrada";
             this.contadorGruposCajaEntrada.MinimumWidth = 8;
             this.contadorGruposCajaEntrada.Name = "contadorGruposCajaEntrada";
@@ -1691,6 +1957,8 @@ namespace Combinado
             // 
             this.acumuladorTiempoColaEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.acumuladorTiempoColaEntrada.DataPropertyName = "acumuladorTiempoColaEntrada";
+            dataGridViewCellStyle88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.acumuladorTiempoColaEntrada.DefaultCellStyle = dataGridViewCellStyle88;
             this.acumuladorTiempoColaEntrada.HeaderText = "AC tiempo ColaEntrada";
             this.acumuladorTiempoColaEntrada.MinimumWidth = 8;
             this.acumuladorTiempoColaEntrada.Name = "acumuladorTiempoColaEntrada";
@@ -1700,6 +1968,8 @@ namespace Combinado
             // 
             this.tiempoPromedioEnColaEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoPromedioEnColaEntrada.DataPropertyName = "tiempoPromedioEnColaEntrada";
+            dataGridViewCellStyle89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoPromedioEnColaEntrada.DefaultCellStyle = dataGridViewCellStyle89;
             this.tiempoPromedioEnColaEntrada.HeaderText = "Tiempo Promedio ColaEntrada";
             this.tiempoPromedioEnColaEntrada.MinimumWidth = 8;
             this.tiempoPromedioEnColaEntrada.Name = "tiempoPromedioEnColaEntrada";
@@ -1709,6 +1979,8 @@ namespace Combinado
             // 
             this.contadorPersonasEnControlComida.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.contadorPersonasEnControlComida.DataPropertyName = "contadorPersonasEnControlComida";
+            dataGridViewCellStyle90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.contadorPersonasEnControlComida.DefaultCellStyle = dataGridViewCellStyle90;
             this.contadorPersonasEnControlComida.HeaderText = "Cont Personas ControlComida";
             this.contadorPersonasEnControlComida.MinimumWidth = 8;
             this.contadorPersonasEnControlComida.Name = "contadorPersonasEnControlComida";
@@ -1717,12 +1989,16 @@ namespace Combinado
             // acumuladorTiempoColaComida
             // 
             this.acumuladorTiempoColaComida.DataPropertyName = "acumuladorTiempoColaComida";
+            dataGridViewCellStyle91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.acumuladorTiempoColaComida.DefaultCellStyle = dataGridViewCellStyle91;
             this.acumuladorTiempoColaComida.HeaderText = "Acum Tiempo ControlComida";
             this.acumuladorTiempoColaComida.Name = "acumuladorTiempoColaComida";
             this.acumuladorTiempoColaComida.ReadOnly = true;
             // 
             // tiempoPromedioEnColaComida
             // 
+            dataGridViewCellStyle92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoPromedioEnColaComida.DefaultCellStyle = dataGridViewCellStyle92;
             this.tiempoPromedioEnColaComida.HeaderText = "Tiempo Promedio en ColaComida";
             this.tiempoPromedioEnColaComida.Name = "tiempoPromedioEnColaComida";
             this.tiempoPromedioEnColaComida.ReadOnly = true;
@@ -1731,6 +2007,8 @@ namespace Combinado
             // 
             this.tiempoEnConseguirEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoEnConseguirEntrada.DataPropertyName = "tiempoEnConseguirEntrada";
+            dataGridViewCellStyle93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoEnConseguirEntrada.DefaultCellStyle = dataGridViewCellStyle93;
             this.tiempoEnConseguirEntrada.HeaderText = "Tiempo en conseguir entrada";
             this.tiempoEnConseguirEntrada.MinimumWidth = 8;
             this.tiempoEnConseguirEntrada.Name = "tiempoEnConseguirEntrada";
@@ -1740,6 +2018,8 @@ namespace Combinado
             // 
             this.cantidadPromedioGenteEnColaEntrada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.cantidadPromedioGenteEnColaEntrada.DataPropertyName = "cantidadPromedioGenteEnColaEntrada";
+            dataGridViewCellStyle94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.cantidadPromedioGenteEnColaEntrada.DefaultCellStyle = dataGridViewCellStyle94;
             this.cantidadPromedioGenteEnColaEntrada.HeaderText = "Cant prom gente en ColaEntrada";
             this.cantidadPromedioGenteEnColaEntrada.MinimumWidth = 8;
             this.cantidadPromedioGenteEnColaEntrada.Name = "cantidadPromedioGenteEnColaEntrada";
@@ -1749,6 +2029,8 @@ namespace Combinado
             // 
             this.tiempoEntradaDespuesDeEstacionar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.tiempoEntradaDespuesDeEstacionar.DataPropertyName = "tiempoEntradaDespuesDeEstacionar";
+            dataGridViewCellStyle95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.tiempoEntradaDespuesDeEstacionar.DefaultCellStyle = dataGridViewCellStyle95;
             this.tiempoEntradaDespuesDeEstacionar.HeaderText = "Tiempo de entrada después de estacionar";
             this.tiempoEntradaDespuesDeEstacionar.MinimumWidth = 8;
             this.tiempoEntradaDespuesDeEstacionar.Name = "tiempoEntradaDespuesDeEstacionar";
@@ -1758,6 +2040,7 @@ namespace Combinado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(1080, 598);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.btnInformación);
@@ -1900,6 +2183,7 @@ namespace Combinado
         private System.Windows.Forms.DataGridViewTextBoxColumn s;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoDuracionDetencionServidor;
         private System.Windows.Forms.DataGridViewTextBoxColumn horaReanudacionServidor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ingresoBloqueado;
         private System.Windows.Forms.DataGridViewTextBoxColumn colaBloqueoLlegadas;
         private System.Windows.Forms.DataGridViewTextBoxColumn colaPark1;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoCajaPark1;
@@ -1942,6 +2226,5 @@ namespace Combinado
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoEnConseguirEntrada;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidadPromedioGenteEnColaEntrada;
         private System.Windows.Forms.DataGridViewTextBoxColumn tiempoEntradaDespuesDeEstacionar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ingresoBloqueado;
     }
 }
